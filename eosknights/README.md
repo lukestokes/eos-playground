@@ -43,3 +43,5 @@ Run time: 0.0845 minutes.
   sell_count: 88,
   account_action_seq: 134 }
 ```
+
+Please don't just the code too harshly as it's my first node app. I borrowed heavily from @kasperfish and a deamon he built [here](https://github.com/eosdac/eosdac-token-explorer/blob/master/deamon/action_deamon.js).
