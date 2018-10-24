@@ -40,6 +40,7 @@ class eosKnights {
     console.log("We have data on " + this.data.accounts.length + " accounts at sequence number " + this.data.game_account_action_seq);
 
     this.data.current_account_action_seq = this.data.game_account_action_seq;
+    this.data.current_account_action_seq++;
 
     this.deamon();
   }
@@ -59,6 +60,7 @@ class eosKnights {
           switch (self.process_step) {
               case 1:
                 self.process_step = 2;
+                self.data.game_account_action_seq = self.data.current_account_action_seq;
                 let update_json_after_step_1 = JSON.stringify(self.data, null, 2);
                 self.fs.writeFile("data.json", update_json_after_step_1, function(err) {}); 
                 break;
@@ -178,7 +180,7 @@ class eosKnights {
             if (self.account_index == -1) {
               console.log("This is where we'd loop through all accounts... let's just update ourselves for now.");
               self.account_index = self.data.accounts.indexOf(self.my_account);
-              self.data.current_account_action_seq = parseInt(self.data.account_data[self.account_index].account_action_seq);
+              self.data.current_account_action_seq = parseInt(self.data.account_data[self.account_index].account_action_seq) + 1;
             }
             let my_actions = await self.getTransactions(self.data.accounts[self.account_index]);
             break;
