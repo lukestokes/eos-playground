@@ -125,8 +125,9 @@ class eosKnights {
                       self.data.account_data[account_index].buys += parseFloat(data._quantity);
                       self.data.account_data[account_index].buy_count++;
                       self.data.account_data[account_index].account_action_seq = data.account_action_seq;
-                      self.data.total_buys += parseFloat(data._quantity);
-                      self.data.total_buy_count += 1;
+                      // this doesn't make sense unless we loop through all the accounts
+                      //self.data.total_buys += parseFloat(data._quantity);
+                      //self.data.total_buy_count += 1;
                     }
                   }
                   if (self.process_step == 1) {
