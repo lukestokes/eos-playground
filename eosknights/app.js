@@ -24,8 +24,8 @@ class eosKnights {
     }
 
     console.log("Welcome to the EOS Knights Stats Machine!");
-    var d = new Date();
-    console.log("Starting up at "+ d.toLocaleTimeString() + " " + d.toLocaleDateString());
+    this.start_time = new Date();
+    console.log("Starting up at "+ this.start_time.toLocaleTimeString() + " " + this.start_time.toLocaleDateString());
 
     if (!this.fs.existsSync('data.json')) {
         let datatofile = JSON.stringify(this.data, null, 2);  
@@ -186,6 +186,11 @@ class eosKnights {
             break;
           case 3:
             console.log("Ok... we should be done now. Let's look at the results!");
+            self.end_time = new Date();
+            console.log("Ending at "+ self.end_time.toLocaleTimeString() + " " + self.end_time.toLocaleDateString());
+            let one_minute=1000*60;
+            let run_time_ms = self.end_time.getTime() - self.start_time.getTime();
+            console.log("Run time: " + parseFloat(run_time_ms/one_minute).toPrecision(3) + " minutes.");
             console.log(self.data.account_data[self.account_index]);
             process.exit();
             break;
