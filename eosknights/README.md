@@ -12,6 +12,12 @@ To run it, have node installed and just type:
 node app.js
 ```
 
+If you don't have eosjs installed, you'll have to install that first via:
+
+```
+npm install eosjs
+```
+
 It will update your data.json file with the latest data from the chain and then output the buys and sells for the account you specified.
 
 Things that could be improved:
