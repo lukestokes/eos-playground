@@ -1,10 +1,10 @@
 {
-  "total_buys": 8.489199999999995,
-  "total_buy_count": 68,
-  "total_sells": 61742.03360000678,
-  "total_sell_count": 310194,
+  "total_buys": 0,
+  "total_buy_count": 0,
+  "total_sells": 61799.49080000691,
+  "total_sell_count": 310762,
   "current_account_action_seq": 135,
-  "game_account_action_seq": 309938,
+  "game_account_action_seq": 310510,
   "accounts": [
     "eosio.ram",
     "eosio.ramfee",
@@ -2972,7 +2972,12 @@
     "diordior1234",
     "eoslqt232525",
     "starwarsclon",
-    "mofasforever"
+    "mofasforever",
+    "felixrobot13",
+    "humanlive222",
+    "woojihaneos1",
+    "prazixuan134",
+    "ffhrzfy12345"
   ],
   "account_data": [
     {
@@ -3115,16 +3120,16 @@
       "account": "hezdcmjygqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 87.91499999999999,
-      "sell_count": 747,
+      "sells": 87.9199,
+      "sell_count": 748,
       "account_action_seq": 0
     },
     {
       "account": "eosdappjapan",
       "buys": 0,
       "buy_count": 0,
-      "sells": 97.40770000000012,
-      "sell_count": 743,
+      "sells": 97.41260000000013,
+      "sell_count": 744,
       "account_action_seq": 0
     },
     {
@@ -3155,8 +3160,8 @@
       "account": "sktelecomeos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 55.926299999999955,
-      "sell_count": 702,
+      "sells": 55.931199999999954,
+      "sell_count": 703,
       "account_action_seq": 0
     },
     {
@@ -3339,8 +3344,8 @@
       "account": "gu3doojqgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 85.54480000000062,
-      "sell_count": 723,
+      "sells": 85.64670000000062,
+      "sell_count": 726,
       "account_action_seq": 0
     },
     {
@@ -3491,8 +3496,8 @@
       "account": "jungbinkimss",
       "buys": 0,
       "buy_count": 0,
-      "sells": 87.93709999999992,
-      "sell_count": 373,
+      "sells": 87.97589999999991,
+      "sell_count": 375,
       "account_action_seq": 0
     },
     {
@@ -3507,8 +3512,8 @@
       "account": "pppnimpppnim",
       "buys": 0,
       "buy_count": 0,
-      "sells": 37.77559999999998,
-      "sell_count": 257,
+      "sells": 37.803299999999986,
+      "sell_count": 258,
       "account_action_seq": 0
     },
     {
@@ -3539,8 +3544,8 @@
       "account": "gu2tgnzsgege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 57.255099999999956,
-      "sell_count": 475,
+      "sells": 57.342399999999955,
+      "sell_count": 476,
       "account_action_seq": 0
     },
     {
@@ -3563,8 +3568,8 @@
       "account": "g44dgnrygege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 62.753800000000055,
-      "sell_count": 506,
+      "sells": 62.94780000000006,
+      "sell_count": 507,
       "account_action_seq": 0
     },
     {
@@ -3603,8 +3608,8 @@
       "account": "guztcobygage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 99.9389000000002,
-      "sell_count": 564,
+      "sells": 100.0253000000002,
+      "sell_count": 565,
       "account_action_seq": 0
     },
     {
@@ -3619,8 +3624,8 @@
       "account": "gq2tqmrxhege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.237900000000005,
-      "sell_count": 173,
+      "sells": 15.248600000000005,
+      "sell_count": 174,
       "account_action_seq": 0
     },
     {
@@ -3635,8 +3640,8 @@
       "account": "gqytsnzrhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 116.22239999999967,
-      "sell_count": 730,
+      "sells": 116.26579999999966,
+      "sell_count": 732,
       "account_action_seq": 0
     },
     {
@@ -3691,8 +3696,8 @@
       "account": "redsungeosio",
       "buys": 0,
       "buy_count": 0,
-      "sells": 23.771399999999932,
-      "sell_count": 400,
+      "sells": 24.15919999999993,
+      "sell_count": 402,
       "account_action_seq": 0
     },
     {
@@ -3827,16 +3832,16 @@
       "account": "gu4tenjygqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 24.870999999999952,
-      "sell_count": 498,
+      "sells": 25.141199999999955,
+      "sell_count": 500,
       "account_action_seq": 0
     },
     {
       "account": "gu3tcnbrg4ge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 77.73560000000037,
-      "sell_count": 926,
+      "sells": 78.69980000000038,
+      "sell_count": 929,
       "account_action_seq": 0
     },
     {
@@ -3883,8 +3888,8 @@
       "account": "tianxiao1234",
       "buys": 0,
       "buy_count": 0,
-      "sells": 72.76950000000011,
-      "sell_count": 475,
+      "sells": 72.9657000000001,
+      "sell_count": 478,
       "account_action_seq": 0
     },
     {
@@ -3923,8 +3928,8 @@
       "account": "1lukestokes1",
       "buys": 8.489199999999995,
       "buy_count": 68,
-      "sells": 8.124699999999997,
-      "sell_count": 87,
+      "sells": 8.134399999999998,
+      "sell_count": 88,
       "account_action_seq": 134
     },
     {
@@ -4219,8 +4224,8 @@
       "account": "g44tqojqgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 16.46919999999994,
-      "sell_count": 287,
+      "sells": 16.66319999999994,
+      "sell_count": 288,
       "account_action_seq": 0
     },
     {
@@ -4283,8 +4288,8 @@
       "account": "gu2tgmbrgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 11.465200000000005,
-      "sell_count": 102,
+      "sells": 11.659200000000006,
+      "sell_count": 103,
       "account_action_seq": 0
     },
     {
@@ -4395,8 +4400,8 @@
       "account": "haydonjyg4ge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 81.58959999999992,
-      "sell_count": 468,
+      "sells": 81.85859999999994,
+      "sell_count": 474,
       "account_action_seq": 0
     },
     {
@@ -4467,8 +4472,8 @@
       "account": "g44dkmzthege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.0327000000000037,
-      "sell_count": 111,
+      "sells": 2.037600000000004,
+      "sell_count": 112,
       "account_action_seq": 0
     },
     {
@@ -4539,8 +4544,8 @@
       "account": "bulungbulung",
       "buys": 0,
       "buy_count": 0,
-      "sells": 70.64510000000008,
-      "sell_count": 493,
+      "sells": 71.75090000000007,
+      "sell_count": 497,
       "account_action_seq": 0
     },
     {
@@ -4683,8 +4688,8 @@
       "account": "guztonbyhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 14.794699999999983,
-      "sell_count": 341,
+      "sells": 14.828199999999983,
+      "sell_count": 342,
       "account_action_seq": 0
     },
     {
@@ -4731,8 +4736,8 @@
       "account": "gu2dimrvgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.8772000000000009,
-      "sell_count": 64,
+      "sells": 1.9063000000000008,
+      "sell_count": 65,
       "account_action_seq": 0
     },
     {
@@ -4827,8 +4832,8 @@
       "account": "happyeosuser",
       "buys": 0,
       "buy_count": 0,
-      "sells": 45.47449999999998,
-      "sell_count": 629,
+      "sells": 45.566699999999976,
+      "sell_count": 630,
       "account_action_seq": 0
     },
     {
@@ -4843,8 +4848,8 @@
       "account": "gameshaighan",
       "buys": 0,
       "buy_count": 0,
-      "sells": 148.1787999999997,
-      "sell_count": 855,
+      "sells": 148.30489999999972,
+      "sell_count": 856,
       "account_action_seq": 0
     },
     {
@@ -4915,16 +4920,16 @@
       "account": "eosknight123",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.7683,
-      "sell_count": 93,
+      "sells": 8.7829,
+      "sell_count": 94,
       "account_action_seq": 0
     },
     {
       "account": "g44tgmbxgige",
       "buys": 0,
       "buy_count": 0,
-      "sells": 18.889799999999934,
-      "sell_count": 394,
+      "sells": 18.894699999999933,
+      "sell_count": 395,
       "account_action_seq": 0
     },
     {
@@ -5043,8 +5048,8 @@
       "account": "zhangzuohuae",
       "buys": 0,
       "buy_count": 0,
-      "sells": 129.50819999999987,
-      "sell_count": 526,
+      "sells": 129.54189999999988,
+      "sell_count": 527,
       "account_action_seq": 0
     },
     {
@@ -5075,8 +5080,8 @@
       "account": "gmytgmrvgige",
       "buys": 0,
       "buy_count": 0,
-      "sells": 96.42410000000021,
-      "sell_count": 490,
+      "sells": 96.52600000000021,
+      "sell_count": 492,
       "account_action_seq": 0
     },
     {
@@ -5203,8 +5208,8 @@
       "account": "fundurianyes",
       "buys": 0,
       "buy_count": 0,
-      "sells": 37.475799999999985,
-      "sell_count": 309,
+      "sells": 37.50009999999998,
+      "sell_count": 310,
       "account_action_seq": 0
     },
     {
@@ -5227,8 +5232,8 @@
       "account": "gyztomjugqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 43.52630000000006,
-      "sell_count": 330,
+      "sells": 43.54910000000007,
+      "sell_count": 332,
       "account_action_seq": 0
     },
     {
@@ -5275,8 +5280,8 @@
       "account": "initialch123",
       "buys": 0,
       "buy_count": 0,
-      "sells": 23.645599999999963,
-      "sell_count": 360,
+      "sells": 23.66509999999996,
+      "sell_count": 363,
       "account_action_seq": 0
     },
     {
@@ -5379,8 +5384,8 @@
       "account": "cryptomoneta",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.119199999999958,
-      "sell_count": 308,
+      "sells": 7.124099999999958,
+      "sell_count": 309,
       "account_action_seq": 0
     },
     {
@@ -5451,8 +5456,8 @@
       "account": "gy3tgnigenes",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.951900000000002,
-      "sell_count": 75,
+      "sells": 4.010100000000002,
+      "sell_count": 76,
       "account_action_seq": 0
     },
     {
@@ -5467,8 +5472,8 @@
       "account": "hjeosaccount",
       "buys": 0,
       "buy_count": 0,
-      "sells": 12.049599999999996,
-      "sell_count": 247,
+      "sells": 12.054999999999996,
+      "sell_count": 248,
       "account_action_seq": 0
     },
     {
@@ -5523,8 +5528,8 @@
       "account": "gyztkmjrgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.592699999999992,
-      "sell_count": 161,
+      "sells": 8.624799999999992,
+      "sell_count": 162,
       "account_action_seq": 0
     },
     {
@@ -5643,8 +5648,8 @@
       "account": "gyzdonjugyge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 88.21209999999994,
-      "sell_count": 460,
+      "sells": 88.39849999999993,
+      "sell_count": 462,
       "account_action_seq": 0
     },
     {
@@ -5683,8 +5688,8 @@
       "account": "eoswangyilin",
       "buys": 0,
       "buy_count": 0,
-      "sells": 119.15110000000013,
-      "sell_count": 626,
+      "sells": 119.18020000000013,
+      "sell_count": 627,
       "account_action_seq": 0
     },
     {
@@ -5755,8 +5760,8 @@
       "account": "gu3tgmzxgege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 53.24489999999999,
-      "sell_count": 355,
+      "sells": 53.31679999999999,
+      "sell_count": 358,
       "account_action_seq": 0
     },
     {
@@ -5891,8 +5896,8 @@
       "account": "gu2dknjygege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 58.780000000000165,
-      "sell_count": 951,
+      "sells": 58.784900000000164,
+      "sell_count": 952,
       "account_action_seq": 0
     },
     {
@@ -5995,8 +6000,8 @@
       "account": "youaremyserf",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.983100000000025,
-      "sell_count": 235,
+      "sells": 31.995700000000024,
+      "sell_count": 236,
       "account_action_seq": 0
     },
     {
@@ -6179,8 +6184,8 @@
       "account": "heytsnzxg4ge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.087799999999973,
-      "sell_count": 231,
+      "sells": 22.28959999999997,
+      "sell_count": 232,
       "account_action_seq": 0
     },
     {
@@ -6227,8 +6232,8 @@
       "account": "chuderasteos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 76.21890000000002,
-      "sell_count": 505,
+      "sells": 77.26430000000002,
+      "sell_count": 507,
       "account_action_seq": 0
     },
     {
@@ -6251,8 +6256,8 @@
       "account": "dragonexbest",
       "buys": 0,
       "buy_count": 0,
-      "sells": 24.92559999999983,
-      "sell_count": 593,
+      "sells": 24.958199999999827,
+      "sell_count": 595,
       "account_action_seq": 0
     },
     {
@@ -6395,8 +6400,8 @@
       "account": "g44tonzwgige",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.9406,
-      "sell_count": 166,
+      "sells": 22.9988,
+      "sell_count": 167,
       "account_action_seq": 0
     },
     {
@@ -6467,8 +6472,8 @@
       "account": "koreatopbank",
       "buys": 0,
       "buy_count": 0,
-      "sells": 43.92949999999993,
-      "sell_count": 495,
+      "sells": 44.123499999999936,
+      "sell_count": 496,
       "account_action_seq": 0
     },
     {
@@ -6595,16 +6600,16 @@
       "account": "zhumaomao111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 19.56079999999993,
-      "sell_count": 482,
+      "sells": 19.570599999999928,
+      "sell_count": 484,
       "account_action_seq": 0
     },
     {
       "account": "haydiojtgene",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.794899999999924,
-      "sell_count": 327,
+      "sells": 15.799799999999923,
+      "sell_count": 328,
       "account_action_seq": 0
     },
     {
@@ -6627,8 +6632,8 @@
       "account": "legolegolego",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.902099999999998,
-      "sell_count": 68,
+      "sells": 8.096099999999998,
+      "sell_count": 69,
       "account_action_seq": 0
     },
     {
@@ -6803,8 +6808,8 @@
       "account": "g4ztcnbshege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 54.78939999999992,
-      "sell_count": 508,
+      "sells": 54.79429999999992,
+      "sell_count": 509,
       "account_action_seq": 0
     },
     {
@@ -6827,8 +6832,8 @@
       "account": "guytqnrugmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 72.05010000000031,
-      "sell_count": 1299,
+      "sells": 72.05500000000032,
+      "sell_count": 1300,
       "account_action_seq": 0
     },
     {
@@ -7059,8 +7064,8 @@
       "account": "gu2dqnrxgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 101.14459999999991,
-      "sell_count": 334,
+      "sells": 102.11459999999991,
+      "sell_count": 335,
       "account_action_seq": 0
     },
     {
@@ -7083,16 +7088,16 @@
       "account": "eoskrdeclear",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.728700000000007,
-      "sell_count": 174,
+      "sells": 30.838500000000007,
+      "sell_count": 176,
       "account_action_seq": 0
     },
     {
       "account": "oooooooooooh",
       "buys": 0,
       "buy_count": 0,
-      "sells": 97.22399999999982,
-      "sell_count": 360,
+      "sells": 97.25669999999981,
+      "sell_count": 363,
       "account_action_seq": 0
     },
     {
@@ -7187,8 +7192,8 @@
       "account": "haytamzrgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.652099999999997,
-      "sell_count": 209,
+      "sells": 6.884899999999997,
+      "sell_count": 210,
       "account_action_seq": 0
     },
     {
@@ -7219,8 +7224,8 @@
       "account": "kiminu555555",
       "buys": 0,
       "buy_count": 0,
-      "sells": 481.70469999999943,
-      "sell_count": 1056,
+      "sells": 483.1596999999995,
+      "sell_count": 1060,
       "account_action_seq": 0
     },
     {
@@ -7283,8 +7288,8 @@
       "account": "gyzdqobuguge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 207.13859999999954,
-      "sell_count": 917,
+      "sells": 207.32479999999956,
+      "sell_count": 918,
       "account_action_seq": 0
     },
     {
@@ -7315,8 +7320,8 @@
       "account": "wingkygirl41",
       "buys": 0,
       "buy_count": 0,
-      "sells": 79.56120000000062,
-      "sell_count": 754,
+      "sells": 79.56610000000063,
+      "sell_count": 755,
       "account_action_seq": 0
     },
     {
@@ -7355,16 +7360,16 @@
       "account": "parksungho44",
       "buys": 0,
       "buy_count": 0,
-      "sells": 64.76530000000001,
-      "sell_count": 524,
+      "sells": 66.5113,
+      "sell_count": 525,
       "account_action_seq": 0
     },
     {
       "account": "kominikomini",
       "buys": 0,
       "buy_count": 0,
-      "sells": 48.51010000000006,
-      "sell_count": 251,
+      "sells": 49.645100000000056,
+      "sell_count": 256,
       "account_action_seq": 0
     },
     {
@@ -7555,8 +7560,8 @@
       "account": "sbsbsbsbsb22",
       "buys": 0,
       "buy_count": 0,
-      "sells": 28.695099999999854,
-      "sell_count": 460,
+      "sells": 28.709799999999852,
+      "sell_count": 463,
       "account_action_seq": 0
     },
     {
@@ -7851,8 +7856,8 @@
       "account": "gyytqojrhege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.941599999999983,
-      "sell_count": 107,
+      "sells": 22.95629999999998,
+      "sell_count": 110,
       "account_action_seq": 0
     },
     {
@@ -7883,8 +7888,8 @@
       "account": "steemeos4444",
       "buys": 0,
       "buy_count": 0,
-      "sells": 88.67220000000013,
-      "sell_count": 435,
+      "sells": 88.86600000000013,
+      "sell_count": 436,
       "account_action_seq": 0
     },
     {
@@ -7987,8 +7992,8 @@
       "account": "eosclubwubai",
       "buys": 0,
       "buy_count": 0,
-      "sells": 94.59860000000059,
-      "sell_count": 660,
+      "sells": 94.68580000000058,
+      "sell_count": 661,
       "account_action_seq": 0
     },
     {
@@ -8075,8 +8080,8 @@
       "account": "g4ydanjtgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 201.93330000000003,
-      "sell_count": 756,
+      "sells": 202.07850000000002,
+      "sell_count": 757,
       "account_action_seq": 0
     },
     {
@@ -8147,8 +8152,8 @@
       "account": "etherhunter2",
       "buys": 0,
       "buy_count": 0,
-      "sells": 16.341400000000004,
-      "sell_count": 237,
+      "sells": 16.357900000000004,
+      "sell_count": 238,
       "account_action_seq": 0
     },
     {
@@ -8171,8 +8176,8 @@
       "account": "prettycastle",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.240499999999948,
-      "sell_count": 318,
+      "sells": 22.245399999999947,
+      "sell_count": 319,
       "account_action_seq": 0
     },
     {
@@ -8251,8 +8256,8 @@
       "account": "gu3dqobwhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 17.582700000000003,
-      "sell_count": 175,
+      "sells": 17.646800000000002,
+      "sell_count": 176,
       "account_action_seq": 0
     },
     {
@@ -8267,8 +8272,8 @@
       "account": "koreaeosking",
       "buys": 0,
       "buy_count": 0,
-      "sells": 73.52940000000015,
-      "sell_count": 439,
+      "sells": 73.53430000000016,
+      "sell_count": 440,
       "account_action_seq": 0
     },
     {
@@ -8379,8 +8384,8 @@
       "account": "gy3dqmjqgige",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.4586000000000015,
-      "sell_count": 121,
+      "sells": 5.545000000000002,
+      "sell_count": 122,
       "account_action_seq": 0
     },
     {
@@ -8395,8 +8400,8 @@
       "account": "gyzdmnrwhege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.5483999999999996,
-      "sell_count": 82,
+      "sells": 1.5492999999999995,
+      "sell_count": 83,
       "account_action_seq": 0
     },
     {
@@ -8435,8 +8440,8 @@
       "account": "gyydmnzqgyge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 42.10330000000002,
-      "sell_count": 250,
+      "sells": 42.13250000000002,
+      "sell_count": 252,
       "account_action_seq": 0
     },
     {
@@ -8611,8 +8616,8 @@
       "account": "zuizuizuizui",
       "buys": 0,
       "buy_count": 0,
-      "sells": 29.27119999999996,
-      "sell_count": 375,
+      "sells": 29.427499999999963,
+      "sell_count": 376,
       "account_action_seq": 0
     },
     {
@@ -8699,8 +8704,8 @@
       "account": "niceworld333",
       "buys": 0,
       "buy_count": 0,
-      "sells": 71.08689999999999,
-      "sell_count": 629,
+      "sells": 71.20829999999998,
+      "sell_count": 632,
       "account_action_seq": 0
     },
     {
@@ -8747,8 +8752,8 @@
       "account": "haojiu321111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 58.47209999999995,
-      "sell_count": 627,
+      "sells": 59.52289999999994,
+      "sell_count": 632,
       "account_action_seq": 0
     },
     {
@@ -8843,8 +8848,8 @@
       "account": "gu2dsmzqgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 14.190299999999972,
-      "sell_count": 265,
+      "sells": 14.195199999999971,
+      "sell_count": 266,
       "account_action_seq": 0
     },
     {
@@ -8915,8 +8920,8 @@
       "account": "lovefear1eos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 222.86839999999978,
-      "sell_count": 1121,
+      "sells": 223.23699999999977,
+      "sell_count": 1122,
       "account_action_seq": 0
     },
     {
@@ -9083,8 +9088,8 @@
       "account": "killluminati",
       "buys": 0,
       "buy_count": 0,
-      "sells": 53.76380000000004,
-      "sell_count": 392,
+      "sells": 54.14700000000004,
+      "sell_count": 393,
       "account_action_seq": 0
     },
     {
@@ -9291,8 +9296,8 @@
       "account": "yunyunyunyun",
       "buys": 0,
       "buy_count": 0,
-      "sells": 28.13069999999997,
-      "sell_count": 296,
+      "sells": 28.16079999999997,
+      "sell_count": 297,
       "account_action_seq": 0
     },
     {
@@ -9339,16 +9344,16 @@
       "account": "nineartmedia",
       "buys": 0,
       "buy_count": 0,
-      "sells": 54.472899999999775,
-      "sell_count": 438,
+      "sells": 55.25189999999977,
+      "sell_count": 440,
       "account_action_seq": 0
     },
     {
       "account": "gq4tqmrshege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 27.35580000000001,
-      "sell_count": 142,
+      "sells": 27.38950000000001,
+      "sell_count": 143,
       "account_action_seq": 0
     },
     {
@@ -9579,8 +9584,8 @@
       "account": "thatsmyfault",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5511999999999999,
-      "sell_count": 32,
+      "sells": 0.5657999999999999,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -9659,8 +9664,8 @@
       "account": "markbrighter",
       "buys": 0,
       "buy_count": 0,
-      "sells": 62.22989999999988,
-      "sell_count": 806,
+      "sells": 62.34539999999989,
+      "sell_count": 813,
       "account_action_seq": 0
     },
     {
@@ -9867,16 +9872,16 @@
       "account": "g44tqmbqhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 26.31349999999994,
-      "sell_count": 362,
+      "sells": 26.50709999999994,
+      "sell_count": 363,
       "account_action_seq": 0
     },
     {
       "account": "gm4dgnjzgege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 39.889699999999955,
-      "sell_count": 384,
+      "sells": 39.93089999999996,
+      "sell_count": 385,
       "account_action_seq": 0
     },
     {
@@ -9899,8 +9904,8 @@
       "account": "eosyonosman1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 12.553399999999993,
-      "sell_count": 125,
+      "sells": 12.592199999999993,
+      "sell_count": 126,
       "account_action_seq": 0
     },
     {
@@ -9939,8 +9944,8 @@
       "account": "allove4eosio",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.4294,
-      "sell_count": 54,
+      "sells": 5.6234,
+      "sell_count": 55,
       "account_action_seq": 0
     },
     {
@@ -9955,8 +9960,8 @@
       "account": "gu3dsmryhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.257600000000001,
-      "sell_count": 103,
+      "sells": 5.2673000000000005,
+      "sell_count": 104,
       "account_action_seq": 0
     },
     {
@@ -9987,16 +9992,16 @@
       "account": "pp1234512345",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.261200000000002,
-      "sell_count": 210,
+      "sells": 9.299100000000003,
+      "sell_count": 211,
       "account_action_seq": 0
     },
     {
       "account": "g4zdaojqgene",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.38880000000000015,
-      "sell_count": 29,
+      "sells": 0.39850000000000013,
+      "sell_count": 30,
       "account_action_seq": 0
     },
     {
@@ -10299,8 +10304,8 @@
       "account": "zhimakaimen1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 38.92999999999999,
-      "sell_count": 307,
+      "sells": 39.45289999999999,
+      "sell_count": 309,
       "account_action_seq": 0
     },
     {
@@ -10347,8 +10352,8 @@
       "account": "nineartmedib",
       "buys": 0,
       "buy_count": 0,
-      "sells": 18.886599999999945,
-      "sell_count": 311,
+      "sells": 19.274599999999946,
+      "sell_count": 312,
       "account_action_seq": 0
     },
     {
@@ -10411,8 +10416,8 @@
       "account": "shenchensucc",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.932999999999922,
-      "sell_count": 646,
+      "sells": 15.937899999999921,
+      "sell_count": 647,
       "account_action_seq": 0
     },
     {
@@ -10435,8 +10440,8 @@
       "account": "ha3tqnbygqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 37.41369999999999,
-      "sell_count": 330,
+      "sells": 37.41859999999999,
+      "sell_count": 331,
       "account_action_seq": 0
     },
     {
@@ -10499,8 +10504,8 @@
       "account": "praeos113355",
       "buys": 0,
       "buy_count": 0,
-      "sells": 48.13859999999999,
-      "sell_count": 245,
+      "sells": 48.526599999999995,
+      "sell_count": 247,
       "account_action_seq": 0
     },
     {
@@ -10563,8 +10568,8 @@
       "account": "markbright22",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.4410999999999,
-      "sell_count": 520,
+      "sells": 22.494499999999896,
+      "sell_count": 525,
       "account_action_seq": 0
     },
     {
@@ -10635,24 +10640,24 @@
       "account": "guztcnbshege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 64.62210000000019,
-      "sell_count": 706,
+      "sells": 64.65120000000019,
+      "sell_count": 707,
       "account_action_seq": 0
     },
     {
       "account": "markbright55",
       "buys": 0,
       "buy_count": 0,
-      "sells": 23.150299999999852,
-      "sell_count": 577,
+      "sells": 23.266699999999847,
+      "sell_count": 583,
       "account_action_seq": 0
     },
     {
       "account": "markbright33",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.75989999999989,
-      "sell_count": 511,
+      "sells": 22.818099999999884,
+      "sell_count": 517,
       "account_action_seq": 0
     },
     {
@@ -10715,8 +10720,8 @@
       "account": "gy4domjxgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 84.85460000000026,
-      "sell_count": 948,
+      "sells": 84.86930000000028,
+      "sell_count": 951,
       "account_action_seq": 0
     },
     {
@@ -10763,16 +10768,16 @@
       "account": "markbright44",
       "buys": 0,
       "buy_count": 0,
-      "sells": 24.39549999999987,
-      "sell_count": 536,
+      "sells": 24.468299999999864,
+      "sell_count": 542,
       "account_action_seq": 0
     },
     {
       "account": "guztgmbwgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 51.807899999999854,
-      "sell_count": 601,
+      "sells": 53.50539999999985,
+      "sell_count": 603,
       "account_action_seq": 0
     },
     {
@@ -10907,8 +10912,8 @@
       "account": "starteosboot",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.6117999999999,
-      "sell_count": 344,
+      "sells": 30.629299999999898,
+      "sell_count": 345,
       "account_action_seq": 0
     },
     {
@@ -11107,8 +11112,8 @@
       "account": "bvcfretrtyfd",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.124800000000004,
-      "sell_count": 193,
+      "sells": 10.716500000000003,
+      "sell_count": 194,
       "account_action_seq": 0
     },
     {
@@ -11147,8 +11152,8 @@
       "account": "geytemzxgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.336700000000002,
-      "sell_count": 124,
+      "sells": 10.424000000000003,
+      "sell_count": 125,
       "account_action_seq": 0
     },
     {
@@ -11363,8 +11368,8 @@
       "account": "cinemangelex",
       "buys": 0,
       "buy_count": 0,
-      "sells": 60.41000000000012,
-      "sell_count": 307,
+      "sells": 60.57860000000011,
+      "sell_count": 310,
       "account_action_seq": 0
     },
     {
@@ -11563,8 +11568,8 @@
       "account": "bvcbfdgreyrh",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.562800000000006,
-      "sell_count": 166,
+      "sells": 10.747100000000007,
+      "sell_count": 167,
       "account_action_seq": 0
     },
     {
@@ -11707,8 +11712,8 @@
       "account": "haydimzwhege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 42.67659999999995,
-      "sell_count": 327,
+      "sells": 42.87059999999995,
+      "sell_count": 328,
       "account_action_seq": 0
     },
     {
@@ -11731,16 +11736,16 @@
       "account": "markbrightaa",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.781499999999863,
-      "sell_count": 478,
+      "sells": 30.970299999999856,
+      "sell_count": 484,
       "account_action_seq": 0
     },
     {
       "account": "gu3dmnjrhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 27.949499999999993,
-      "sell_count": 170,
+      "sells": 28.939399999999992,
+      "sell_count": 175,
       "account_action_seq": 0
     },
     {
@@ -11795,16 +11800,16 @@
       "account": "vkdpfhsvkdp1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 27.097199999999834,
-      "sell_count": 681,
+      "sells": 27.106999999999832,
+      "sell_count": 683,
       "account_action_seq": 0
     },
     {
       "account": "gy2demzzgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.10760000000002,
-      "sell_count": 320,
+      "sells": 4.11250000000002,
+      "sell_count": 321,
       "account_action_seq": 0
     },
     {
@@ -11843,8 +11848,8 @@
       "account": "csabalburo11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.9066,
-      "sell_count": 27,
+      "sells": 1.1207,
+      "sell_count": 30,
       "account_action_seq": 0
     },
     {
@@ -11883,8 +11888,8 @@
       "account": "xjjsszksqdjj",
       "buys": 0,
       "buy_count": 0,
-      "sells": 25.15129999999996,
-      "sell_count": 338,
+      "sells": 25.15619999999996,
+      "sell_count": 339,
       "account_action_seq": 0
     },
     {
@@ -11899,16 +11904,16 @@
       "account": "eosoneday252",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.25499999999999,
-      "sell_count": 117,
+      "sells": 30.264699999999987,
+      "sell_count": 118,
       "account_action_seq": 0
     },
     {
       "account": "simdakkkkkkk",
       "buys": 0,
       "buy_count": 0,
-      "sells": 60.76710000000002,
-      "sell_count": 244,
+      "sells": 60.79950000000002,
+      "sell_count": 245,
       "account_action_seq": 0
     },
     {
@@ -11963,8 +11968,8 @@
       "account": "vcxvcxvdsfea",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.822000000000008,
-      "sell_count": 152,
+      "sells": 10.559200000000008,
+      "sell_count": 153,
       "account_action_seq": 0
     },
     {
@@ -12019,8 +12024,8 @@
       "account": "bvcbfghregcs",
       "buys": 0,
       "buy_count": 0,
-      "sells": 13.021799999999997,
-      "sell_count": 167,
+      "sells": 13.206099999999998,
+      "sell_count": 168,
       "account_action_seq": 0
     },
     {
@@ -12307,8 +12312,8 @@
       "account": "ikosjistudio",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.608100000000002,
-      "sell_count": 195,
+      "sells": 6.801800000000002,
+      "sell_count": 196,
       "account_action_seq": 0
     },
     {
@@ -12323,16 +12328,16 @@
       "account": "urekadream15",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.719700000000007,
-      "sell_count": 83,
+      "sells": 23.620700000000006,
+      "sell_count": 84,
       "account_action_seq": 0
     },
     {
       "account": "eosgamekiheo",
       "buys": 0,
       "buy_count": 0,
-      "sells": 35.69629999999985,
-      "sell_count": 582,
+      "sells": 35.70609999999985,
+      "sell_count": 584,
       "account_action_seq": 0
     },
     {
@@ -12451,8 +12456,8 @@
       "account": "marksigmund1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.049499999999979,
-      "sell_count": 187,
+      "sells": 15.146199999999979,
+      "sell_count": 188,
       "account_action_seq": 0
     },
     {
@@ -12531,8 +12536,8 @@
       "account": "eosxuanereos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 205.98069999999788,
-      "sell_count": 1515,
+      "sells": 205.98559999999787,
+      "sell_count": 1516,
       "account_action_seq": 0
     },
     {
@@ -12667,8 +12672,8 @@
       "account": "prazhouli521",
       "buys": 0,
       "buy_count": 0,
-      "sells": 21.643300000000014,
-      "sell_count": 304,
+      "sells": 21.656000000000013,
+      "sell_count": 305,
       "account_action_seq": 0
     },
     {
@@ -12683,8 +12688,8 @@
       "account": "gu3tgmryhege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 103.73980000000002,
-      "sell_count": 446,
+      "sells": 103.74950000000001,
+      "sell_count": 447,
       "account_action_seq": 0
     },
     {
@@ -12851,8 +12856,8 @@
       "account": "zhengxiang11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 29.249099999999967,
-      "sell_count": 199,
+      "sells": 29.617699999999967,
+      "sell_count": 200,
       "account_action_seq": 0
     },
     {
@@ -12891,16 +12896,16 @@
       "account": "g44damjqgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.5453,
-      "sell_count": 130,
+      "sells": 5.6955,
+      "sell_count": 132,
       "account_action_seq": 0
     },
     {
       "account": "eosforskmate",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.42299999999999,
-      "sell_count": 164,
+      "sells": 8.485099999999989,
+      "sell_count": 165,
       "account_action_seq": 0
     },
     {
@@ -13019,16 +13024,16 @@
       "account": "gu3tanrthege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.2007000000000017,
-      "sell_count": 90,
+      "sells": 3.2589000000000015,
+      "sell_count": 91,
       "account_action_seq": 0
     },
     {
       "account": "cy1234512345",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.46209999999999,
-      "sell_count": 167,
+      "sells": 30.656099999999988,
+      "sell_count": 168,
       "account_action_seq": 0
     },
     {
@@ -13099,8 +13104,8 @@
       "account": "efreetsultan",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.810700000000031,
-      "sell_count": 532,
+      "sells": 7.820500000000031,
+      "sell_count": 534,
       "account_action_seq": 0
     },
     {
@@ -13163,8 +13168,8 @@
       "account": "g43tsnbygqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 18.013099999999955,
-      "sell_count": 253,
+      "sells": 18.017999999999954,
+      "sell_count": 254,
       "account_action_seq": 0
     },
     {
@@ -13283,8 +13288,8 @@
       "account": "zenithse1211",
       "buys": 0,
       "buy_count": 0,
-      "sells": 46.30190000000002,
-      "sell_count": 383,
+      "sells": 46.48810000000002,
+      "sell_count": 384,
       "account_action_seq": 0
     },
     {
@@ -13435,8 +13440,8 @@
       "account": "lovefear2eos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 35.3013999999999,
-      "sell_count": 543,
+      "sells": 36.2713999999999,
+      "sell_count": 544,
       "account_action_seq": 0
     },
     {
@@ -13459,8 +13464,8 @@
       "account": "giydknzvgene",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.2711000000000001,
-      "sell_count": 20,
+      "sells": 0.27200000000000013,
+      "sell_count": 21,
       "account_action_seq": 0
     },
     {
@@ -13507,8 +13512,8 @@
       "account": "gm3tmmjrgyge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 64.40990000000016,
-      "sell_count": 655,
+      "sells": 64.41480000000017,
+      "sell_count": 656,
       "account_action_seq": 0
     },
     {
@@ -13595,8 +13600,8 @@
       "account": "eosramaholic",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.775299999999966,
-      "sell_count": 446,
+      "sells": 15.776199999999966,
+      "sell_count": 447,
       "account_action_seq": 0
     },
     {
@@ -13899,8 +13904,8 @@
       "account": "tjwjddkthfkr",
       "buys": 0,
       "buy_count": 0,
-      "sells": 45.2412999999999,
-      "sell_count": 368,
+      "sells": 45.277299999999904,
+      "sell_count": 370,
       "account_action_seq": 0
     },
     {
@@ -13939,8 +13944,8 @@
       "account": "eosxnejansgo",
       "buys": 0,
       "buy_count": 0,
-      "sells": 58.87240000000001,
-      "sell_count": 545,
+      "sells": 59.84730000000001,
+      "sell_count": 547,
       "account_action_seq": 0
     },
     {
@@ -14099,8 +14104,8 @@
       "account": "gy2tcmrqguge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.5290000000000035,
-      "sell_count": 155,
+      "sells": 7.538800000000004,
+      "sell_count": 157,
       "account_action_seq": 0
     },
     {
@@ -14123,8 +14128,8 @@
       "account": "tigers111111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 148.49410000000026,
-      "sell_count": 533,
+      "sells": 148.50870000000026,
+      "sell_count": 534,
       "account_action_seq": 0
     },
     {
@@ -14179,8 +14184,8 @@
       "account": "mostprecious",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.288399999999998,
-      "sell_count": 142,
+      "sells": 2.302999999999998,
+      "sell_count": 144,
       "account_action_seq": 0
     },
     {
@@ -14219,8 +14224,8 @@
       "account": "iiiiiiiiiiin",
       "buys": 0,
       "buy_count": 0,
-      "sells": 52.625599999999956,
-      "sell_count": 331,
+      "sells": 52.69549999999995,
+      "sell_count": 333,
       "account_action_seq": 0
     },
     {
@@ -14235,8 +14240,8 @@
       "account": "ha3tanjzgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.495500000000002,
-      "sell_count": 139,
+      "sells": 7.5828000000000015,
+      "sell_count": 140,
       "account_action_seq": 0
     },
     {
@@ -14283,8 +14288,8 @@
       "account": "wahticwahtic",
       "buys": 0,
       "buy_count": 0,
-      "sells": 35.55529999999996,
-      "sell_count": 367,
+      "sells": 35.61349999999996,
+      "sell_count": 368,
       "account_action_seq": 0
     },
     {
@@ -14355,8 +14360,8 @@
       "account": "vkdpfhsvkdp2",
       "buys": 0,
       "buy_count": 0,
-      "sells": 22.81579999999986,
-      "sell_count": 557,
+      "sells": 22.82069999999986,
+      "sell_count": 558,
       "account_action_seq": 0
     },
     {
@@ -14491,8 +14496,8 @@
       "account": "eosdapp54321",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.377399999999997,
-      "sell_count": 275,
+      "sells": 7.382399999999997,
+      "sell_count": 276,
       "account_action_seq": 0
     },
     {
@@ -14555,16 +14560,16 @@
       "account": "shaojie52134",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.050199999999991,
-      "sell_count": 211,
+      "sells": 15.244199999999992,
+      "sell_count": 212,
       "account_action_seq": 0
     },
     {
       "account": "sugoring1111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.23960000000002,
-      "sell_count": 439,
+      "sells": 4.24350000000002,
+      "sell_count": 440,
       "account_action_seq": 0
     },
     {
@@ -14691,8 +14696,8 @@
       "account": "brendonrossi",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.3774999999999995,
-      "sell_count": 67,
+      "sells": 2.4113999999999995,
+      "sell_count": 68,
       "account_action_seq": 0
     },
     {
@@ -14859,8 +14864,8 @@
       "account": "chinderstorm",
       "buys": 0,
       "buy_count": 0,
-      "sells": 38.60439999999987,
-      "sell_count": 574,
+      "sells": 38.66359999999986,
+      "sell_count": 578,
       "account_action_seq": 0
     },
     {
@@ -14947,8 +14952,8 @@
       "account": "alibazwaiyue",
       "buys": 0,
       "buy_count": 0,
-      "sells": 11.347100000000006,
-      "sell_count": 213,
+      "sells": 11.381100000000007,
+      "sell_count": 214,
       "account_action_seq": 0
     },
     {
@@ -15307,8 +15312,8 @@
       "account": "ipplboyimpyo",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.805799999999987,
-      "sell_count": 76,
+      "sells": 10.810699999999986,
+      "sell_count": 77,
       "account_action_seq": 0
     },
     {
@@ -15451,8 +15456,8 @@
       "account": "kodykody3333",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.2067,
-      "sell_count": 125,
+      "sells": 9.2698,
+      "sell_count": 126,
       "account_action_seq": 0
     },
     {
@@ -15667,8 +15672,8 @@
       "account": "techieossick",
       "buys": 0,
       "buy_count": 0,
-      "sells": 18.493699999999883,
-      "sell_count": 513,
+      "sells": 18.591699999999882,
+      "sell_count": 515,
       "account_action_seq": 0
     },
     {
@@ -15771,8 +15776,8 @@
       "account": "sunheesunhee",
       "buys": 0,
       "buy_count": 0,
-      "sells": 35.83840000000009,
-      "sell_count": 313,
+      "sells": 36.0421000000001,
+      "sell_count": 315,
       "account_action_seq": 0
     },
     {
@@ -15819,8 +15824,8 @@
       "account": "eos5dcoollin",
       "buys": 0,
       "buy_count": 0,
-      "sells": 23.042299999999994,
-      "sell_count": 144,
+      "sells": 23.100599999999993,
+      "sell_count": 147,
       "account_action_seq": 0
     },
     {
@@ -15883,16 +15888,16 @@
       "account": "eosblackloga",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.3229,
-      "sell_count": 57,
+      "sells": 2.4375000000000004,
+      "sell_count": 59,
       "account_action_seq": 0
     },
     {
       "account": "jjsjjsjjsjjs",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.708900000000005,
-      "sell_count": 272,
+      "sells": 8.970800000000008,
+      "sell_count": 275,
       "account_action_seq": 0
     },
     {
@@ -15907,8 +15912,8 @@
       "account": "eos121daniel",
       "buys": 0,
       "buy_count": 0,
-      "sells": 13.809999999999997,
-      "sell_count": 94,
+      "sells": 14.003999999999998,
+      "sell_count": 95,
       "account_action_seq": 0
     },
     {
@@ -15947,8 +15952,8 @@
       "account": "achainwallet",
       "buys": 0,
       "buy_count": 0,
-      "sells": 156.16859999999994,
-      "sell_count": 247,
+      "sells": 156.28319999999994,
+      "sell_count": 249,
       "account_action_seq": 0
     },
     {
@@ -16075,8 +16080,8 @@
       "account": "isssssssssss",
       "buys": 0,
       "buy_count": 0,
-      "sells": 27.125399999999942,
-      "sell_count": 282,
+      "sells": 27.38849999999994,
+      "sell_count": 286,
       "account_action_seq": 0
     },
     {
@@ -16251,8 +16256,8 @@
       "account": "jgnjgnjgn123",
       "buys": 0,
       "buy_count": 0,
-      "sells": 29.63549999999997,
-      "sell_count": 264,
+      "sells": 29.640399999999968,
+      "sell_count": 265,
       "account_action_seq": 0
     },
     {
@@ -16515,8 +16520,8 @@
       "account": "g44dkmzugqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.5775,
-      "sell_count": 123,
+      "sells": 2.6018000000000003,
+      "sell_count": 124,
       "account_action_seq": 0
     },
     {
@@ -16531,8 +16536,8 @@
       "account": "ha2eosio1122",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.536200000000003,
-      "sell_count": 138,
+      "sells": 6.641700000000003,
+      "sell_count": 141,
       "account_action_seq": 0
     },
     {
@@ -16699,8 +16704,8 @@
       "account": "eostothehome",
       "buys": 0,
       "buy_count": 0,
-      "sells": 30.801699999999933,
-      "sell_count": 276,
+      "sells": 30.898699999999934,
+      "sell_count": 277,
       "account_action_seq": 0
     },
     {
@@ -16787,8 +16792,8 @@
       "account": "borntoloveos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.1414999999999993,
-      "sell_count": 73,
+      "sells": 1.1463999999999992,
+      "sell_count": 74,
       "account_action_seq": 0
     },
     {
@@ -16835,8 +16840,8 @@
       "account": "gezdqnbzgege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.9648000000000034,
-      "sell_count": 106,
+      "sells": 3.9730000000000034,
+      "sell_count": 107,
       "account_action_seq": 0
     },
     {
@@ -16995,8 +17000,8 @@
       "account": "gi3dqmrxg4ge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 43.477,
-      "sell_count": 146,
+      "sells": 43.535199999999996,
+      "sell_count": 147,
       "account_action_seq": 0
     },
     {
@@ -17043,8 +17048,8 @@
       "account": "huntsyoon345",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.7343000000000003,
-      "sell_count": 45,
+      "sells": 0.7392000000000003,
+      "sell_count": 46,
       "account_action_seq": 0
     },
     {
@@ -17155,8 +17160,8 @@
       "account": "eosbaseworld",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.6020999999999936,
-      "sell_count": 277,
+      "sells": 1.6069999999999935,
+      "sell_count": 278,
       "account_action_seq": 0
     },
     {
@@ -17291,8 +17296,8 @@
       "account": "ideatoss1212",
       "buys": 0,
       "buy_count": 0,
-      "sells": 17.27819999999998,
-      "sell_count": 195,
+      "sells": 17.44779999999998,
+      "sell_count": 197,
       "account_action_seq": 0
     },
     {
@@ -17307,8 +17312,8 @@
       "account": "ha2dqmrxgige",
       "buys": 0,
       "buy_count": 0,
-      "sells": 35.85139999999993,
-      "sell_count": 399,
+      "sells": 36.132199999999926,
+      "sell_count": 401,
       "account_action_seq": 0
     },
     {
@@ -17363,8 +17368,8 @@
       "account": "eliteaccount",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.913999999999999,
-      "sell_count": 79,
+      "sells": 4.9998999999999985,
+      "sell_count": 80,
       "account_action_seq": 0
     },
     {
@@ -17379,8 +17384,8 @@
       "account": "g44tqmzugyge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.187299999999974,
-      "sell_count": 99,
+      "sells": 15.206699999999973,
+      "sell_count": 100,
       "account_action_seq": 0
     },
     {
@@ -17563,8 +17568,8 @@
       "account": "astralrabbit",
       "buys": 0,
       "buy_count": 0,
-      "sells": 17.553499999999943,
-      "sell_count": 363,
+      "sells": 17.747499999999942,
+      "sell_count": 364,
       "account_action_seq": 0
     },
     {
@@ -17803,8 +17808,8 @@
       "account": "flower5power",
       "buys": 0,
       "buy_count": 0,
-      "sells": 28.96339999999999,
-      "sell_count": 134,
+      "sells": 29.00209999999999,
+      "sell_count": 136,
       "account_action_seq": 0
     },
     {
@@ -17891,8 +17896,8 @@
       "account": "eosholicbsj1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.312299999999997,
-      "sell_count": 193,
+      "sells": 5.3219999999999965,
+      "sell_count": 194,
       "account_action_seq": 0
     },
     {
@@ -17915,8 +17920,8 @@
       "account": "benjaminrost",
       "buys": 0,
       "buy_count": 0,
-      "sells": 77.04249999999998,
-      "sell_count": 315,
+      "sells": 77.13469999999998,
+      "sell_count": 316,
       "account_action_seq": 0
     },
     {
@@ -17963,8 +17968,8 @@
       "account": "g4zdcnrqgqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.689900000000013,
-      "sell_count": 475,
+      "sells": 6.699700000000013,
+      "sell_count": 477,
       "account_action_seq": 0
     },
     {
@@ -18003,8 +18008,8 @@
       "account": "g44damzzg4ge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.689000000000001,
-      "sell_count": 105,
+      "sells": 7.766600000000001,
+      "sell_count": 106,
       "account_action_seq": 0
     },
     {
@@ -18147,8 +18152,8 @@
       "account": "g44dmnzvgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.712999999999998,
-      "sell_count": 121,
+      "sells": 1.897299999999998,
+      "sell_count": 122,
       "account_action_seq": 0
     },
     {
@@ -18187,8 +18192,8 @@
       "account": "gamingoneos5",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.024600000000001,
-      "sell_count": 86,
+      "sells": 5.062400000000001,
+      "sell_count": 87,
       "account_action_seq": 0
     },
     {
@@ -18355,8 +18360,8 @@
       "account": "xxxxxxwallet",
       "buys": 0,
       "buy_count": 0,
-      "sells": 18.660800000000012,
-      "sell_count": 113,
+      "sells": 18.853900000000014,
+      "sell_count": 114,
       "account_action_seq": 0
     },
     {
@@ -18395,8 +18400,8 @@
       "account": "eoseosheedae",
       "buys": 0,
       "buy_count": 0,
-      "sells": 57.53840000000001,
-      "sell_count": 252,
+      "sells": 57.56260000000001,
+      "sell_count": 253,
       "account_action_seq": 0
     },
     {
@@ -18459,8 +18464,8 @@
       "account": "gnjun3ndjggd",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.806900000000001,
-      "sell_count": 43,
+      "sells": 6.291900000000001,
+      "sell_count": 44,
       "account_action_seq": 0
     },
     {
@@ -18523,16 +18528,16 @@
       "account": "gogogogogoki",
       "buys": 0,
       "buy_count": 0,
-      "sells": 14.303399999999941,
-      "sell_count": 343,
+      "sells": 14.31319999999994,
+      "sell_count": 345,
       "account_action_seq": 0
     },
     {
       "account": "sunrizewin44",
       "buys": 0,
       "buy_count": 0,
-      "sells": 40.408500000000004,
-      "sell_count": 128,
+      "sells": 41.669500000000006,
+      "sell_count": 131,
       "account_action_seq": 0
     },
     {
@@ -18563,8 +18568,8 @@
       "account": "gy4tsmigenes",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.7305000000000006,
-      "sell_count": 112,
+      "sells": 0.7314000000000006,
+      "sell_count": 113,
       "account_action_seq": 0
     },
     {
@@ -18619,8 +18624,8 @@
       "account": "warfollowsme",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.0811000000000015,
-      "sell_count": 25,
+      "sells": 3.3721000000000014,
+      "sell_count": 26,
       "account_action_seq": 0
     },
     {
@@ -18803,8 +18808,8 @@
       "account": "goodluckcoin",
       "buys": 0,
       "buy_count": 0,
-      "sells": 19.443599999999996,
-      "sell_count": 197,
+      "sells": 19.652199999999997,
+      "sell_count": 199,
       "account_action_seq": 0
     },
     {
@@ -18835,16 +18840,16 @@
       "account": "xtigerrrrrrr",
       "buys": 0,
       "buy_count": 0,
-      "sells": 54.932299999999984,
-      "sell_count": 144,
+      "sells": 55.08179999999999,
+      "sell_count": 147,
       "account_action_seq": 0
     },
     {
       "account": "eosheedaeeos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 41.31019999999997,
-      "sell_count": 171,
+      "sells": 41.329699999999974,
+      "sell_count": 173,
       "account_action_seq": 0
     },
     {
@@ -18883,8 +18888,8 @@
       "account": "eoszhouyifan",
       "buys": 0,
       "buy_count": 0,
-      "sells": 17.820700000000006,
-      "sell_count": 121,
+      "sells": 18.053500000000003,
+      "sell_count": 123,
       "account_action_seq": 0
     },
     {
@@ -18947,16 +18952,16 @@
       "account": "iamdenny1111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.8915000000000015,
-      "sell_count": 68,
+      "sells": 3.8964000000000016,
+      "sell_count": 69,
       "account_action_seq": 0
     },
     {
       "account": "ghehdn4dnhge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 12.845700000000003,
-      "sell_count": 55,
+      "sells": 13.233700000000002,
+      "sell_count": 56,
       "account_action_seq": 0
     },
     {
@@ -19051,8 +19056,8 @@
       "account": "nineartmedic",
       "buys": 0,
       "buy_count": 0,
-      "sells": 12.484199999999984,
-      "sell_count": 257,
+      "sells": 12.503599999999983,
+      "sell_count": 258,
       "account_action_seq": 0
     },
     {
@@ -19075,8 +19080,8 @@
       "account": "goldisweak13",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.34929999999999994,
-      "sell_count": 28,
+      "sells": 0.35899999999999993,
+      "sell_count": 29,
       "account_action_seq": 0
     },
     {
@@ -19195,8 +19200,8 @@
       "account": "nineartmedid",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.1202,
-      "sell_count": 232,
+      "sells": 9.154299999999997,
+      "sell_count": 236,
       "account_action_seq": 0
     },
     {
@@ -19267,8 +19272,8 @@
       "account": "omgorangepop",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.206600000000007,
-      "sell_count": 303,
+      "sells": 7.211500000000007,
+      "sell_count": 304,
       "account_action_seq": 0
     },
     {
@@ -19291,16 +19296,16 @@
       "account": "nineartmedie",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.483100000000008,
-      "sell_count": 224,
+      "sells": 6.534600000000008,
+      "sell_count": 226,
       "account_action_seq": 0
     },
     {
       "account": "goenddhenn23",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.4784999999999995,
-      "sell_count": 23,
+      "sells": 7.9334999999999996,
+      "sell_count": 24,
       "account_action_seq": 0
     },
     {
@@ -19331,8 +19336,8 @@
       "account": "okinterbirds",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.7092999999999994,
-      "sell_count": 111,
+      "sells": 1.8062999999999994,
+      "sell_count": 112,
       "account_action_seq": 0
     },
     {
@@ -19387,8 +19392,8 @@
       "account": "eoskingofkor",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0204,
-      "sell_count": 4,
+      "sells": 0.021300000000000003,
+      "sell_count": 5,
       "account_action_seq": 0
     },
     {
@@ -19419,8 +19424,8 @@
       "account": "ccaccacaa333",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.8824000000000005,
-      "sell_count": 28,
+      "sells": 5.979400000000001,
+      "sell_count": 29,
       "account_action_seq": 0
     },
     {
@@ -19451,8 +19456,8 @@
       "account": "eoshopely123",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5231000000000002,
-      "sell_count": 79,
+      "sells": 0.5329000000000003,
+      "sell_count": 81,
       "account_action_seq": 0
     },
     {
@@ -19603,8 +19608,8 @@
       "account": "eosheedae222",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.821999999999994,
-      "sell_count": 102,
+      "sells": 10.836699999999992,
+      "sell_count": 105,
       "account_action_seq": 0
     },
     {
@@ -19667,8 +19672,8 @@
       "account": "mindcontrol4",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.2600999999999996,
-      "sell_count": 19,
+      "sells": 4.6327,
+      "sell_count": 21,
       "account_action_seq": 0
     },
     {
@@ -19691,8 +19696,8 @@
       "account": "soolovehoo11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.588099999999999,
-      "sell_count": 23,
+      "sells": 7.722099999999998,
+      "sell_count": 25,
       "account_action_seq": 0
     },
     {
@@ -19723,8 +19728,8 @@
       "account": "rockernext44",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.529300000000001,
-      "sell_count": 26,
+      "sells": 6.791200000000001,
+      "sell_count": 29,
       "account_action_seq": 0
     },
     {
@@ -19739,8 +19744,8 @@
       "account": "eoswinnerwin",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.426000000000004,
-      "sell_count": 35,
+      "sells": 9.396000000000004,
+      "sell_count": 36,
       "account_action_seq": 0
     },
     {
@@ -19931,8 +19936,8 @@
       "account": "parksungho22",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.34099999999999997,
-      "sell_count": 32,
+      "sells": 0.346,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -20051,16 +20056,16 @@
       "account": "chomg2345cmg",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.673300000000004,
-      "sell_count": 103,
+      "sells": 5.862500000000003,
+      "sell_count": 104,
       "account_action_seq": 0
     },
     {
       "account": "jingoojingoo",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.6023000000000005,
-      "sell_count": 26,
+      "sells": 7.699300000000001,
+      "sell_count": 27,
       "account_action_seq": 0
     },
     {
@@ -20115,8 +20120,8 @@
       "account": "maoguangxing",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.006299999999994,
-      "sell_count": 166,
+      "sells": 9.195499999999994,
+      "sell_count": 168,
       "account_action_seq": 0
     },
     {
@@ -20179,8 +20184,8 @@
       "account": "rkfkdododdnd",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.500999999999998,
-      "sell_count": 47,
+      "sells": 4.694999999999998,
+      "sell_count": 48,
       "account_action_seq": 0
     },
     {
@@ -20195,16 +20200,16 @@
       "account": "eoskrsiny234",
       "buys": 0,
       "buy_count": 0,
-      "sells": 12.900399999999994,
-      "sell_count": 66,
+      "sells": 12.905299999999993,
+      "sell_count": 67,
       "account_action_seq": 0
     },
     {
       "account": "nineartmedig",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.707700000000002,
-      "sell_count": 152,
+      "sells": 7.814500000000002,
+      "sell_count": 156,
       "account_action_seq": 0
     },
     {
@@ -20219,24 +20224,24 @@
       "account": "nineartmedif",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.376100000000003,
-      "sell_count": 139,
+      "sells": 6.734100000000003,
+      "sell_count": 141,
       "account_action_seq": 0
     },
     {
       "account": "forevereos12",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.191,
-      "sell_count": 22,
+      "sells": 9.161000000000001,
+      "sell_count": 23,
       "account_action_seq": 0
     },
     {
       "account": "rfhiteckim11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.987499999999998,
-      "sell_count": 27,
+      "sells": 8.957499999999998,
+      "sell_count": 28,
       "account_action_seq": 0
     },
     {
@@ -20267,8 +20272,8 @@
       "account": "ursapluseos1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.558699999999999,
-      "sell_count": 27,
+      "sells": 1.563599999999999,
+      "sell_count": 28,
       "account_action_seq": 0
     },
     {
@@ -20315,8 +20320,8 @@
       "account": "choijihyun11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.3585,
-      "sell_count": 36,
+      "sells": 11.464299999999998,
+      "sell_count": 38,
       "account_action_seq": 0
     },
     {
@@ -20419,24 +20424,24 @@
       "account": "4hhvsqzvrk3x",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.6960999999999999,
-      "sell_count": 21,
+      "sells": 0.7465999999999999,
+      "sell_count": 22,
       "account_action_seq": 0
     },
     {
       "account": "astrovoyager",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.454499999999994,
-      "sell_count": 277,
+      "sells": 9.473899999999995,
+      "sell_count": 279,
       "account_action_seq": 0
     },
     {
       "account": "astroravager",
       "buys": 0,
       "buy_count": 0,
-      "sells": 10.280100000000001,
-      "sell_count": 227,
+      "sells": 10.503200000000001,
+      "sell_count": 229,
       "account_action_seq": 0
     },
     {
@@ -20539,16 +20544,16 @@
       "account": "kkkkkkkkk555",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.280099999999998,
-      "sell_count": 96,
+      "sells": 7.318899999999998,
+      "sell_count": 97,
       "account_action_seq": 0
     },
     {
       "account": "eos1infinity",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.4508000000000005,
-      "sell_count": 53,
+      "sells": 0.4517000000000005,
+      "sell_count": 54,
       "account_action_seq": 0
     },
     {
@@ -20579,16 +20584,16 @@
       "account": "zhengxiang22",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.9687,
-      "sell_count": 50,
+      "sells": 6.0609,
+      "sell_count": 51,
       "account_action_seq": 0
     },
     {
       "account": "knightplayer",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.4523000000000002,
-      "sell_count": 42,
+      "sells": 0.4960000000000002,
+      "sell_count": 43,
       "account_action_seq": 0
     },
     {
@@ -20643,8 +20648,8 @@
       "account": "yangchaoyue1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 13.331699999999998,
-      "sell_count": 139,
+      "sells": 13.369099999999998,
+      "sell_count": 140,
       "account_action_seq": 0
     },
     {
@@ -20691,8 +20696,8 @@
       "account": "k55555222223",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.697499999999998,
-      "sell_count": 112,
+      "sells": 8.702399999999997,
+      "sell_count": 113,
       "account_action_seq": 0
     },
     {
@@ -20763,8 +20768,8 @@
       "account": "bibjvhcgftbi",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.7510000000000003,
-      "sell_count": 41,
+      "sells": 1.9353000000000002,
+      "sell_count": 42,
       "account_action_seq": 0
     },
     {
@@ -20803,8 +20808,8 @@
       "account": "4nuttcracker",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.2155999999999998,
-      "sell_count": 44,
+      "sells": 0.22049999999999978,
+      "sell_count": 45,
       "account_action_seq": 0
     },
     {
@@ -20827,8 +20832,8 @@
       "account": "kekekekeke33",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.8424,
-      "sell_count": 45,
+      "sells": 0.8473,
+      "sell_count": 46,
       "account_action_seq": 0
     },
     {
@@ -20867,16 +20872,16 @@
       "account": "littleforest",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.6159,
-      "sell_count": 23,
+      "sells": 0.645,
+      "sell_count": 24,
       "account_action_seq": 0
     },
     {
       "account": "practice3344",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.006000000000001,
-      "sell_count": 86,
+      "sells": 3.238700000000001,
+      "sell_count": 89,
       "account_action_seq": 0
     },
     {
@@ -20923,16 +20928,16 @@
       "account": "venusproject",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.401799999999999,
-      "sell_count": 117,
+      "sells": 7.484299999999999,
+      "sell_count": 119,
       "account_action_seq": 0
     },
     {
       "account": "gqzdqnzugmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.28900000000000026,
-      "sell_count": 82,
+      "sells": 0.29870000000000024,
+      "sell_count": 83,
       "account_action_seq": 0
     },
     {
@@ -20971,8 +20976,8 @@
       "account": "eosgazuaaaaa",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.949399999999999,
-      "sell_count": 107,
+      "sells": 5.000899999999999,
+      "sell_count": 109,
       "account_action_seq": 0
     },
     {
@@ -21003,8 +21008,8 @@
       "account": "zhoushuyonge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 213.21590000000006,
-      "sell_count": 213,
+      "sells": 213.22570000000005,
+      "sell_count": 215,
       "account_action_seq": 0
     },
     {
@@ -21179,8 +21184,8 @@
       "account": "eosmianbizhe",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.0638999999999998,
-      "sell_count": 58,
+      "sells": 1.0735999999999999,
+      "sell_count": 59,
       "account_action_seq": 0
     },
     {
@@ -21371,8 +21376,8 @@
       "account": "whparkwhpark",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.4038,
-      "sell_count": 69,
+      "sells": 5.588100000000001,
+      "sell_count": 70,
       "account_action_seq": 0
     },
     {
@@ -21403,16 +21408,16 @@
       "account": "eoshpplfz111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.840699999999999,
-      "sell_count": 52,
+      "sells": 7.110399999999999,
+      "sell_count": 54,
       "account_action_seq": 0
     },
     {
       "account": "jamesknights",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.25349999999999984,
-      "sell_count": 66,
+      "sells": 0.27159999999999984,
+      "sell_count": 69,
       "account_action_seq": 0
     },
     {
@@ -21475,8 +21480,8 @@
       "account": "chairking333",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.3434999999999999,
-      "sell_count": 67,
+      "sells": 0.34839999999999993,
+      "sell_count": 68,
       "account_action_seq": 0
     },
     {
@@ -21579,8 +21584,8 @@
       "account": "astralhammer",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.785499999999993,
-      "sell_count": 219,
+      "sells": 7.790399999999993,
+      "sell_count": 220,
       "account_action_seq": 0
     },
     {
@@ -21627,16 +21632,16 @@
       "account": "eosuarwallet",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.899700000000011,
-      "sell_count": 214,
+      "sells": 6.917300000000011,
+      "sell_count": 216,
       "account_action_seq": 0
     },
     {
       "account": "eosudrwallet",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.029500000000007,
-      "sell_count": 195,
+      "sells": 4.034400000000007,
+      "sell_count": 196,
       "account_action_seq": 0
     },
     {
@@ -21707,8 +21712,8 @@
       "account": "qiaobusi1111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.567700000000006,
-      "sell_count": 173,
+      "sells": 4.592000000000006,
+      "sell_count": 174,
       "account_action_seq": 0
     },
     {
@@ -21723,8 +21728,8 @@
       "account": "lxd151515lwh",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.660200000000006,
-      "sell_count": 150,
+      "sells": 6.689600000000007,
+      "sell_count": 156,
       "account_action_seq": 0
     },
     {
@@ -21763,8 +21768,8 @@
       "account": "prajiangtao3",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.0141,
-      "sell_count": 109,
+      "sells": 2.019,
+      "sell_count": 110,
       "account_action_seq": 0
     },
     {
@@ -21795,8 +21800,8 @@
       "account": "lixiaolai153",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.271200000000002,
-      "sell_count": 129,
+      "sells": 4.295500000000002,
+      "sell_count": 130,
       "account_action_seq": 0
     },
     {
@@ -21827,8 +21832,8 @@
       "account": "laomaozi4444",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.4194000000000018,
-      "sell_count": 127,
+      "sells": 3.5864000000000016,
+      "sell_count": 130,
       "account_action_seq": 0
     },
     {
@@ -21851,8 +21856,8 @@
       "account": "dentesttestd",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.4875000000000003,
-      "sell_count": 69,
+      "sells": 2.4924000000000004,
+      "sell_count": 70,
       "account_action_seq": 0
     },
     {
@@ -21907,8 +21912,8 @@
       "account": "emmmmmm.bank",
       "buys": 0,
       "buy_count": 0,
-      "sells": 8.1909,
-      "sell_count": 104,
+      "sells": 8.2006,
+      "sell_count": 105,
       "account_action_seq": 0
     },
     {
@@ -21923,8 +21928,8 @@
       "account": "nvadrzmuzdie",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0056,
-      "sell_count": 4,
+      "sells": 0.0065,
+      "sell_count": 5,
       "account_action_seq": 0
     },
     {
@@ -21995,8 +22000,8 @@
       "account": "zhoushuyongo",
       "buys": 0,
       "buy_count": 0,
-      "sells": 24.090099999999985,
-      "sell_count": 125,
+      "sells": 24.122199999999985,
+      "sell_count": 126,
       "account_action_seq": 0
     },
     {
@@ -22171,8 +22176,8 @@
       "account": "sourceeoseos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.9946000000000003,
-      "sell_count": 32,
+      "sells": 0.9955000000000003,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -22187,8 +22192,8 @@
       "account": "lgtelecomeos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.501500000000001,
-      "sell_count": 65,
+      "sells": 4.506400000000001,
+      "sell_count": 66,
       "account_action_seq": 0
     },
     {
@@ -22363,8 +22368,8 @@
       "account": "markbright11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.4425000000000017,
-      "sell_count": 92,
+      "sells": 2.471700000000002,
+      "sell_count": 96,
       "account_action_seq": 0
     },
     {
@@ -22387,8 +22392,8 @@
       "account": "lovetnti1234",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.9011000000000005,
-      "sell_count": 19,
+      "sells": 9.065100000000001,
+      "sell_count": 20,
       "account_action_seq": 0
     },
     {
@@ -22403,8 +22408,8 @@
       "account": "markbrightbb",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.787900000000001,
-      "sell_count": 85,
+      "sells": 0.8608000000000011,
+      "sell_count": 89,
       "account_action_seq": 0
     },
     {
@@ -22435,8 +22440,8 @@
       "account": "jessechaoeos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.9061999999999995,
-      "sell_count": 34,
+      "sells": 1.9159999999999993,
+      "sell_count": 36,
       "account_action_seq": 0
     },
     {
@@ -22491,8 +22496,8 @@
       "account": "nineartmedi1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 4.678000000000002,
-      "sell_count": 121,
+      "sells": 4.987500000000002,
+      "sell_count": 123,
       "account_action_seq": 0
     },
     {
@@ -22523,8 +22528,8 @@
       "account": "dankbongrips",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.22699999999999995,
-      "sell_count": 44,
+      "sells": 0.23189999999999994,
+      "sell_count": 45,
       "account_action_seq": 0
     },
     {
@@ -22635,16 +22640,16 @@
       "account": "eosmotianlun",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.32799999999999985,
-      "sell_count": 46,
+      "sells": 0.35709999999999986,
+      "sell_count": 47,
       "account_action_seq": 0
     },
     {
       "account": "binancexleos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 7.196100000000009,
-      "sell_count": 122,
+      "sells": 7.201000000000009,
+      "sell_count": 123,
       "account_action_seq": 0
     },
     {
@@ -22747,16 +22752,16 @@
       "account": "praznfpvaxkt",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.2103999999999995,
-      "sell_count": 66,
+      "sells": 2.2152999999999996,
+      "sell_count": 67,
       "account_action_seq": 0
     },
     {
       "account": "13v33d5eosda",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.12780000000000002,
-      "sell_count": 21,
+      "sells": 0.12870000000000004,
+      "sell_count": 22,
       "account_action_seq": 0
     },
     {
@@ -22795,8 +22800,8 @@
       "account": "markbrightcc",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.5017999999999998,
-      "sell_count": 50,
+      "sells": 1.6086999999999994,
+      "sell_count": 55,
       "account_action_seq": 0
     },
     {
@@ -22859,16 +22864,16 @@
       "account": "skillmangame",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.08310000000000001,
-      "sell_count": 15,
+      "sells": 0.09280000000000001,
+      "sell_count": 16,
       "account_action_seq": 0
     },
     {
       "account": "hzfight12345",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.848999999999991,
-      "sell_count": 146,
+      "sells": 9.96589999999999,
+      "sell_count": 150,
       "account_action_seq": 0
     },
     {
@@ -22979,8 +22984,8 @@
       "account": "eostaobaoxxx",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.971499999999999,
-      "sell_count": 39,
+      "sells": 8.4362,
+      "sell_count": 41,
       "account_action_seq": 0
     },
     {
@@ -23019,8 +23024,8 @@
       "account": "seoyeonlove1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 9.563099999999995,
-      "sell_count": 83,
+      "sells": 9.823499999999996,
+      "sell_count": 86,
       "account_action_seq": 0
     },
     {
@@ -23035,8 +23040,8 @@
       "account": "redbonetiger",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.9718000000000003,
-      "sell_count": 32,
+      "sells": 1.0009000000000003,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -23059,8 +23064,8 @@
       "account": "mengwuhen521",
       "buys": 0,
       "buy_count": 0,
-      "sells": 15.683799999999982,
-      "sell_count": 83,
+      "sells": 15.809999999999983,
+      "sell_count": 86,
       "account_action_seq": 0
     },
     {
@@ -23075,8 +23080,8 @@
       "account": "sbsbsbsbsb33",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.0591,
-      "sell_count": 73,
+      "sells": 2.0688,
+      "sell_count": 74,
       "account_action_seq": 0
     },
     {
@@ -23099,8 +23104,8 @@
       "account": "chuhaiyang12",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5101,
-      "sell_count": 20,
+      "sells": 0.5201,
+      "sell_count": 22,
       "account_action_seq": 0
     },
     {
@@ -23227,8 +23232,8 @@
       "account": "markbright1a",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.4594000000000003,
-      "sell_count": 45,
+      "sells": 0.4886000000000003,
+      "sell_count": 49,
       "account_action_seq": 0
     },
     {
@@ -23315,8 +23320,8 @@
       "account": "siyoungnara1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.6976000000000004,
-      "sell_count": 40,
+      "sells": 3.7452000000000005,
+      "sell_count": 41,
       "account_action_seq": 0
     },
     {
@@ -23331,8 +23336,8 @@
       "account": "bigdatapower",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.6902,
-      "sell_count": 30,
+      "sells": 3.7037999999999998,
+      "sell_count": 31,
       "account_action_seq": 0
     },
     {
@@ -23355,8 +23360,8 @@
       "account": "qkrehdgksdla",
       "buys": 0,
       "buy_count": 0,
-      "sells": 20.275800000000004,
-      "sell_count": 50,
+      "sells": 20.469800000000003,
+      "sell_count": 51,
       "account_action_seq": 0
     },
     {
@@ -23395,8 +23400,8 @@
       "account": "gy2tgojvgqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.3999000000000006,
-      "sell_count": 8,
+      "sells": 2.4387000000000008,
+      "sell_count": 9,
       "account_action_seq": 0
     },
     {
@@ -23531,16 +23536,16 @@
       "account": "eosmoongazua",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.2536999999999999,
-      "sell_count": 52,
+      "sells": 0.25859999999999994,
+      "sell_count": 53,
       "account_action_seq": 0
     },
     {
       "account": "eosiojinwook",
       "buys": 0,
       "buy_count": 0,
-      "sells": 5.476399999999998,
-      "sell_count": 52,
+      "sells": 5.498799999999998,
+      "sell_count": 53,
       "account_action_seq": 0
     },
     {
@@ -23603,8 +23608,8 @@
       "account": "icequbeyskan",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.1669,
-      "sell_count": 22,
+      "sells": 0.17179999999999998,
+      "sell_count": 23,
       "account_action_seq": 0
     },
     {
@@ -23803,8 +23808,8 @@
       "account": "veychanwsm33",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.08900000000000001,
-      "sell_count": 32,
+      "sells": 0.09870000000000001,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -23843,8 +23848,8 @@
       "account": "praeosio5555",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.3097,
-      "sell_count": 28,
+      "sells": 0.31939999999999996,
+      "sell_count": 29,
       "account_action_seq": 0
     },
     {
@@ -23867,8 +23872,8 @@
       "account": "litecoinator",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.2289999999999998,
-      "sell_count": 59,
+      "sells": 0.23289999999999977,
+      "sell_count": 60,
       "account_action_seq": 0
     },
     {
@@ -23907,8 +23912,8 @@
       "account": "muyiloveseos",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.7393000000000002,
-      "sell_count": 25,
+      "sells": 0.7442000000000002,
+      "sell_count": 26,
       "account_action_seq": 0
     },
     {
@@ -23979,16 +23984,16 @@
       "account": "windowslhh11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.06540000000000001,
-      "sell_count": 12,
+      "sells": 0.07030000000000002,
+      "sell_count": 13,
       "account_action_seq": 0
     },
     {
       "account": "tpzjstkfkd12",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.5814999999999997,
-      "sell_count": 24,
+      "sells": 1.9888999999999997,
+      "sell_count": 27,
       "account_action_seq": 0
     },
     {
@@ -24043,16 +24048,16 @@
       "account": "gq3tsmjrgage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0551,
-      "sell_count": 24,
+      "sells": 0.0585,
+      "sell_count": 25,
       "account_action_seq": 0
     },
     {
       "account": "ha2tinrvhege",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0752,
-      "sell_count": 32,
+      "sells": 0.08990000000000001,
+      "sell_count": 35,
       "account_action_seq": 0
     },
     {
@@ -24091,8 +24096,8 @@
       "account": "gm2tcobyhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.16929999999999995,
-      "sell_count": 33,
+      "sells": 0.18389999999999992,
+      "sell_count": 35,
       "account_action_seq": 0
     },
     {
@@ -24139,24 +24144,24 @@
       "account": "gqzdmmzqgige",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.11089999999999998,
-      "sell_count": 32,
+      "sells": 0.11579999999999999,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
       "account": "haydaojxgqge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.0208,
-      "sell_count": 14,
+      "sells": 1.1080999999999999,
+      "sell_count": 15,
       "account_action_seq": 0
     },
     {
       "account": "gu3dgnzrhage",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.057800000000000004,
-      "sell_count": 15,
+      "sells": 0.0587,
+      "sell_count": 16,
       "account_action_seq": 0
     },
     {
@@ -24187,8 +24192,8 @@
       "account": "lgz51lxy42hy",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.051000000000000004,
-      "sell_count": 18,
+      "sells": 0.0519,
+      "sell_count": 19,
       "account_action_seq": 0
     },
     {
@@ -24203,8 +24208,8 @@
       "account": "wubaifans113",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.8256000000000001,
-      "sell_count": 41,
+      "sells": 0.8305000000000001,
+      "sell_count": 42,
       "account_action_seq": 0
     },
     {
@@ -24227,8 +24232,8 @@
       "account": "mashuchang55",
       "buys": 0,
       "buy_count": 0,
-      "sells": 3.0622,
-      "sell_count": 39,
+      "sells": 3.0816,
+      "sell_count": 41,
       "account_action_seq": 0
     },
     {
@@ -24251,8 +24256,8 @@
       "account": "goodeossssss",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5727000000000001,
-      "sell_count": 16,
+      "sells": 0.6640000000000001,
+      "sell_count": 18,
       "account_action_seq": 0
     },
     {
@@ -24267,8 +24272,8 @@
       "account": "youxi1111111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5983,
-      "sell_count": 22,
+      "sells": 0.6158,
+      "sell_count": 23,
       "account_action_seq": 0
     },
     {
@@ -24315,8 +24320,8 @@
       "account": "eosknightsav",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0162,
-      "sell_count": 13,
+      "sells": 0.017599999999999998,
+      "sell_count": 14,
       "account_action_seq": 0
     },
     {
@@ -24395,8 +24400,8 @@
       "account": "jiayueting11",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.6262,
-      "sell_count": 48,
+      "sells": 0.6702,
+      "sell_count": 51,
       "account_action_seq": 0
     },
     {
@@ -24515,8 +24520,8 @@
       "account": "ccarius55555",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.9275,
-      "sell_count": 26,
+      "sells": 0.9567,
+      "sell_count": 29,
       "account_action_seq": 0
     },
     {
@@ -24587,8 +24592,8 @@
       "account": "vikishow2223",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.3792,
-      "sell_count": 31,
+      "sells": 0.43069999999999997,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -24619,8 +24624,8 @@
       "account": "patentlawyer",
       "buys": 0,
       "buy_count": 0,
-      "sells": 6.674900000000001,
-      "sell_count": 33,
+      "sells": 7.450900000000001,
+      "sell_count": 34,
       "account_action_seq": 0
     },
     {
@@ -24731,8 +24736,8 @@
       "account": "chaitong2222",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0408,
-      "sell_count": 20,
+      "sells": 0.045700000000000005,
+      "sell_count": 21,
       "account_action_seq": 0
     },
     {
@@ -24747,16 +24752,16 @@
       "account": "11111gu11111",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.05390000000000001,
-      "sell_count": 25,
+      "sells": 0.055700000000000006,
+      "sell_count": 27,
       "account_action_seq": 0
     },
     {
       "account": "gujiagualong",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.20809999999999995,
-      "sell_count": 16,
+      "sells": 0.21299999999999994,
+      "sell_count": 17,
       "account_action_seq": 0
     },
     {
@@ -24851,8 +24856,8 @@
       "account": "nanguaren123",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.09850000000000002,
-      "sell_count": 14,
+      "sells": 0.10340000000000002,
+      "sell_count": 15,
       "account_action_seq": 0
     },
     {
@@ -24875,8 +24880,8 @@
       "account": "firestrakers",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.903,
-      "sell_count": 18,
+      "sells": 1.9079,
+      "sell_count": 19,
       "account_action_seq": 0
     },
     {
@@ -24963,8 +24968,8 @@
       "account": "laoyeche4321",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0328,
-      "sell_count": 15,
+      "sells": 0.0337,
+      "sell_count": 16,
       "account_action_seq": 0
     },
     {
@@ -25075,8 +25080,8 @@
       "account": "darkheroryan",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5879,
-      "sell_count": 36,
+      "sells": 0.6075,
+      "sell_count": 40,
       "account_action_seq": 0
     },
     {
@@ -25091,8 +25096,8 @@
       "account": "praboniuge55",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.026400000000000014,
-      "sell_count": 26,
+      "sells": 0.027300000000000015,
+      "sell_count": 27,
       "account_action_seq": 0
     },
     {
@@ -25155,8 +25160,8 @@
       "account": "markbright1b",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.4803999999999998,
-      "sell_count": 22,
+      "sells": 0.5726999999999999,
+      "sell_count": 25,
       "account_action_seq": 0
     },
     {
@@ -25227,8 +25232,8 @@
       "account": "windstrikers",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.08290000000000002,
-      "sell_count": 21,
+      "sells": 0.09760000000000002,
+      "sell_count": 24,
       "account_action_seq": 0
     },
     {
@@ -25283,8 +25288,8 @@
       "account": "banbansomnus",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0629,
-      "sell_count": 12,
+      "sells": 0.0638,
+      "sell_count": 13,
       "account_action_seq": 0
     },
     {
@@ -25363,8 +25368,8 @@
       "account": "eosiomoifund",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0018,
-      "sell_count": 2,
+      "sells": 0.0027,
+      "sell_count": 3,
       "account_action_seq": 0
     },
     {
@@ -25403,8 +25408,8 @@
       "account": "zhangleyan55",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.020499999999999997,
-      "sell_count": 5,
+      "sells": 0.0254,
+      "sell_count": 6,
       "account_action_seq": 0
     },
     {
@@ -25419,8 +25424,8 @@
       "account": "johancruijff",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0156,
-      "sell_count": 4,
+      "sells": 0.0165,
+      "sell_count": 5,
       "account_action_seq": 0
     },
     {
@@ -25563,8 +25568,8 @@
       "account": "haraguharagu",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.6305,
-      "sell_count": 5,
+      "sells": 0.8245,
+      "sell_count": 6,
       "account_action_seq": 0
     },
     {
@@ -25635,8 +25640,8 @@
       "account": "babyismylove",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0095,
-      "sell_count": 6,
+      "sells": 0.0104,
+      "sell_count": 7,
       "account_action_seq": 0
     },
     {
@@ -25803,8 +25808,8 @@
       "account": "lxltzhangjun",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0183,
-      "sell_count": 7,
+      "sells": 0.019200000000000002,
+      "sell_count": 8,
       "account_action_seq": 0
     },
     {
@@ -25859,8 +25864,8 @@
       "account": "frankkkkkkkk",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.37540000000000007,
-      "sell_count": 29,
+      "sells": 0.5179000000000001,
+      "sell_count": 33,
       "account_action_seq": 0
     },
     {
@@ -25883,8 +25888,8 @@
       "account": "virusofeosio",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0027,
-      "sell_count": 3,
+      "sells": 0.0036,
+      "sell_count": 4,
       "account_action_seq": 0
     },
     {
@@ -25931,8 +25936,8 @@
       "account": "pracubesmith",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.06840000000000002,
-      "sell_count": 11,
+      "sells": 0.08780000000000002,
+      "sell_count": 12,
       "account_action_seq": 0
     },
     {
@@ -26123,8 +26128,8 @@
       "account": "th1122334455",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.5897,
-      "sell_count": 5,
+      "sells": 0.8943000000000001,
+      "sell_count": 9,
       "account_action_seq": 0
     },
     {
@@ -26235,16 +26240,16 @@
       "account": "yudeyin12345",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0175,
-      "sell_count": 10,
+      "sells": 0.021100000000000004,
+      "sell_count": 13,
       "account_action_seq": 0
     },
     {
       "account": "nineartmedi2",
       "buys": 0,
       "buy_count": 0,
-      "sells": 1.686,
-      "sell_count": 8,
+      "sells": 1.88,
+      "sell_count": 10,
       "account_action_seq": 0
     },
     {
@@ -26259,8 +26264,8 @@
       "account": "zhoushuyong3",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0127,
-      "sell_count": 3,
+      "sells": 0.0225,
+      "sell_count": 5,
       "account_action_seq": 0
     },
     {
@@ -26403,32 +26408,32 @@
       "account": "starwarstoys",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.9894000000000001,
-      "sell_count": 3,
+      "sells": 1.7063,
+      "sell_count": 6,
       "account_action_seq": 0
     },
     {
       "account": "ha4domjxgmge",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.006699999999999999,
-      "sell_count": 3,
+      "sells": 0.012499999999999999,
+      "sell_count": 5,
       "account_action_seq": 0
     },
     {
       "account": "eosioeosbank",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.04750000000000001,
-      "sell_count": 4,
+      "sells": 0.05120000000000001,
+      "sell_count": 5,
       "account_action_seq": 0
     },
     {
       "account": "gamezone5555",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0027,
-      "sell_count": 3,
+      "sells": 0.0036,
+      "sell_count": 4,
       "account_action_seq": 0
     },
     {
@@ -26483,8 +26488,8 @@
       "account": "eosmangogogo",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0058,
-      "sell_count": 2,
+      "sells": 0.0107,
+      "sell_count": 3,
       "account_action_seq": 0
     },
     {
@@ -26499,16 +26504,16 @@
       "account": "dexeosdexeo1",
       "buys": 0,
       "buy_count": 0,
-      "sells": 2.1706,
-      "sell_count": 5,
+      "sells": 2.3646,
+      "sell_count": 6,
       "account_action_seq": 0
     },
     {
       "account": "hermayor1tut",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0087,
-      "sell_count": 2,
+      "sells": 0.0096,
+      "sell_count": 3,
       "account_action_seq": 0
     },
     {
@@ -26675,8 +26680,8 @@
       "account": "weipeng12345",
       "buys": 0,
       "buy_count": 0,
-      "sells": 0.0049,
-      "sell_count": 1,
+      "sells": 0.0058,
+      "sell_count": 2,
       "account_action_seq": 0
     },
     {
@@ -26708,6 +26713,46 @@
       "buys": 0,
       "buy_count": 0,
       "sells": 0.0009,
+      "sell_count": 1,
+      "account_action_seq": 0
+    },
+    {
+      "account": "felixrobot13",
+      "buys": 0,
+      "buy_count": 0,
+      "sells": 0.0009,
+      "sell_count": 1,
+      "account_action_seq": 0
+    },
+    {
+      "account": "humanlive222",
+      "buys": 0,
+      "buy_count": 0,
+      "sells": 1.164,
+      "sell_count": 1,
+      "account_action_seq": 0
+    },
+    {
+      "account": "woojihaneos1",
+      "buys": 0,
+      "buy_count": 0,
+      "sells": 0.0013,
+      "sell_count": 1,
+      "account_action_seq": 0
+    },
+    {
+      "account": "prazixuan134",
+      "buys": 0,
+      "buy_count": 0,
+      "sells": 0.0009,
+      "sell_count": 1,
+      "account_action_seq": 0
+    },
+    {
+      "account": "ffhrzfy12345",
+      "buys": 0,
+      "buy_count": 0,
+      "sells": 0.0037,
       "sell_count": 1,
       "account_action_seq": 0
     }
