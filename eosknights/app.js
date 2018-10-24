@@ -13,10 +13,10 @@ class eosKnights {
     this.last_block_time = '';
     this.account_index = -1;
     this.data = {
-      "total_buys": 0,
-      "total_buy_count": 0,
-      "total_sells": 0,
-      "total_sell_count": 0,
+      "total_amount_spent": 0,
+      "total_number_of_purchases": 0,
+      "total_amount_earned": 0,
+      "total_number_of_sales": 0,
       "current_account_action_seq": 0,
       "game_account_action_seq": 0,
       "accounts": [],
@@ -113,21 +113,21 @@ class eosKnights {
                         account_index = self.data.accounts.length;
                         let new_sell_account = {
                           "account": account,
-                          "buys": 0,
-                          "buy_count": 0,
-                          "sells": 0,
-                          "sell_count": 0,
+                          "amount_spent": 0,
+                          "number_of_purchases": 0,
+                          "amount_earned": 0,
+                          "number_of_sales": 0,
                           "account_action_seq": 0
                         }
                         self.data.accounts[account_index] = account;
                         self.data.account_data[account_index] = new_sell_account;
                       }
-                      self.data.account_data[account_index].buys += parseFloat(data._quantity);
-                      self.data.account_data[account_index].buy_count++;
+                      self.data.account_data[account_index].amount_spent += parseFloat(data._quantity);
+                      self.data.account_data[account_index].number_of_purchases++;
                       self.data.account_data[account_index].account_action_seq = data.account_action_seq;
                       // this doesn't make sense unless we loop through all the accounts
-                      //self.data.total_buys += parseFloat(data._quantity);
-                      //self.data.total_buy_count += 1;
+                      //self.data.total_amount_spent += parseFloat(data._quantity);
+                      //self.data.number_of_total_amount_spent += 1;
                     }
                   }
                   if (self.process_step == 1) {
@@ -136,19 +136,19 @@ class eosKnights {
                       index = self.data.accounts.length;
                       let new_account = {
                         "account": data._to,
-                        "buys": 0,
-                        "buy_count": 0,
-                        "sells": 0,
-                        "sell_count": 0,
+                        "amount_spent": 0,
+                        "number_of_purchases": 0,
+                        "amount_earned": 0,
+                        "number_of_sales": 0,
                         "account_action_seq": 0
                       }
                       self.data.accounts[index] = data._to;
                       self.data.account_data[index] = new_account;
                     }
-                    self.data.account_data[index].sells += parseFloat(data._quantity);
-                    self.data.account_data[index].sell_count++;
-                    self.data.total_sells += parseFloat(data._quantity);
-                    self.data.total_sell_count += 1;
+                    self.data.account_data[index].amount_earned += parseFloat(data._quantity);
+                    self.data.account_data[index].number_of_sales++;
+                    self.data.total_amount_earned += parseFloat(data._quantity);
+                    self.data.total_number_of_sales += 1;
                   }
 
                   break;

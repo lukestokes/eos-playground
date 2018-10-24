@@ -26,22 +26,26 @@ Example output:
 ```
 ➜  eosknights git:(master) node app.js
 Welcome to the EOS Knights Stats Machine!
-Starting up at 00:06:32 2018-10-24
+Starting up at 15:18:36 2018-10-24
 Loading data from data.json...
-We have data on 2975 accounts at sequence number 310782
-Updating: block number 23225032 at 2018-10-24T05:06:32.000 account sequence 310858
-No new actions (latest: 310857)
+We have data on 3022 accounts at sequence number 314171
+Updating: block number 23306543 at 2018-10-24T16:26:55.500 account sequence 314673
+Updating: block number 23314651 at 2018-10-24T17:34:30.000 account sequence 315174
+Updating: block number 23333867 at 2018-10-24T20:14:39.500 account sequence 315675
+Updating: block number 23334258 at 2018-10-24T20:17:55.000 account sequence 315679
+No new actions (latest: 315678)
 This is where we'd loop through all accounts... let's just update ourselves for now.
-No new actions (latest: 134)
+Updating: block number 23333527 at 2018-10-24T20:11:49.500 account sequence 141
+No new actions (latest: 140)
 Ok... we should be done now. Let's look at the results!
-Ending at 00:06:37 2018-10-24
-Run time: 0.0845 minutes.
+Ending at 15:18:52 2018-10-24
+Run time: 0.267 minutes.
 { account: '1lukestokes1',
-  buys: 8.489199999999995,
-  buy_count: 68,
-  sells: 8.134399999999998,
-  sell_count: 88,
-  account_action_seq: 134 }
+  amount_spent: 8.518199999999997,
+  number_of_purchases: 74,
+  amount_earned: 8.134399999999998,
+  number_of_sales: 88,
+  account_action_seq: 140 }
 ```
 
 Please don't just the code too harshly as it's my first node app. I borrowed heavily from @kasperfish and a deamon he built [here](https://github.com/eosdac/eosdac-token-explorer/blob/master/deamon/action_deamon.js).
