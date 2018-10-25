@@ -12,6 +12,7 @@ class eosKnights {
     this.last_block_number = 0;
     this.last_block_time = '';
     this.account_index = -1;
+    this.skip_update = false;
     this.data = {
       "total_amount_spent": 0,
       "total_number_of_purchases": 0,
@@ -41,6 +42,9 @@ class eosKnights {
 
     this.data.current_account_action_seq = this.data.game_account_action_seq;
     this.data.current_account_action_seq++;
+
+
+
 
     this.deamon();
   }
@@ -108,26 +112,11 @@ class eosKnights {
 
                   if (self.process_step == 2) {
                     if (data._to == self.game_account) {
-                      let account_index = self.data.accounts.indexOf(account);
-                      if (account_index == -1) {
-                        account_index = self.data.accounts.length;
-                        let new_sell_account = {
-                          "account": account,
-                          "amount_spent": 0,
-                          "number_of_purchases": 0,
-                          "amount_earned": 0,
-                          "number_of_sales": 0,
-                          "account_action_seq": 0
-                        }
-                        self.data.accounts[account_index] = account;
-                        self.data.account_data[account_index] = new_sell_account;
-                      }
-                      self.data.account_data[account_index].amount_spent += parseFloat(data._quantity);
-                      self.data.account_data[account_index].number_of_purchases++;
-                      self.data.account_data[account_index].account_action_seq = data.account_action_seq;
-                      // this doesn't make sense unless we loop through all the accounts
-                      //self.data.total_amount_spent += parseFloat(data._quantity);
-                      //self.data.number_of_total_amount_spent += 1;
+                      self.data.account_data[self.account_index].amount_spent += parseFloat(data._quantity);
+                      self.data.account_data[self.account_index].number_of_purchases++;
+                      self.data.account_data[self.account_index].account_action_seq = data.account_action_seq;
+                      self.data.total_amount_spent += parseFloat(data._quantity);
+                      self.data.number_of_total_amount_spent += 1;
                     }
                   }
                   if (self.process_step == 1) {
@@ -180,8 +169,7 @@ class eosKnights {
           case 2:
             if (self.account_index == -1) {
               console.log("This is where we'd loop through all accounts... let's just update ourselves for now.");
-              self.account_index = self.data.accounts.indexOf(self.my_account);
-              self.data.current_account_action_seq = parseInt(self.data.account_data[self.account_index].account_action_seq) + 1;
+              self.loadAccount(self.my_account);
             }
             let my_actions = await self.getTransactions(self.data.accounts[self.account_index]);
             break;
@@ -207,6 +195,17 @@ class eosKnights {
   _sleep(t) {
       return new Promise(resolve => setTimeout(resolve, t));
   }
+
+  loadAccount(account){
+      var self = this;
+      self.account_index = self.data.accounts.indexOf(account);
+      if (self.account_index == -1) {
+        console.log("Account not found: " + account);
+        console.log("Please update your local data.");
+        process.exit();
+      }
+      self.data.current_account_action_seq = parseInt(self.data.account_data[self.account_index].account_action_seq) + 1;
+  }  
 
 }
 
