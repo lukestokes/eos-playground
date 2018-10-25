@@ -3,7 +3,7 @@ class eosKnights {
   constructor(eos) {
     var self = this;
     this.game_account = 'eosknightsio';
-    this.my_account = '1lukestokes1';
+    this.this_account = '';
     this.deamonize = 1;
     this.offset = 500;
     this.fs = require('fs');
@@ -43,8 +43,27 @@ class eosKnights {
     this.data.current_account_action_seq = this.data.game_account_action_seq;
     this.data.current_account_action_seq++;
 
+    // TODO: get rid of all eosio. accounts
+    var exclude_accounts = ['eosio.stake','eosio.ramfee','eosio.ram'];
+    var index_to_remove = -1;
+    for (var i = exclude_accounts.length - 1; i >= 0; i--) {
+      index_to_remove = self.data.accounts.indexOf(exclude_accounts[i]);
+      if (index_to_remove != -1) {
+        self.data.accounts.splice(index_to_remove, 1);
+        self.data.account_data.splice(index_to_remove, 1);
+      }
+    }
 
-
+    if (process.argv.length > 2) {
+      this.this_account = process.argv[2];
+      if (process.argv.length > 3) {
+        // if they include a false here, skip updating things and jump to step 2
+        if (process.argv[3] == "false") {
+          this.process_step = 3;
+          this.loadAccount(this.this_account);
+        }
+      }
+    }
 
     this.deamon();
   }
@@ -69,9 +88,20 @@ class eosKnights {
                 self.fs.writeFile("data.json", update_json_after_step_1, function(err) {}); 
                 break;
               case 2:
-                self.process_step = 3;
                 let update_json_after_step_2 = JSON.stringify(self.data, null, 2);
                 self.fs.writeFile("data.json", update_json_after_step_2, function(err) {}); 
+                if (self.this_account != "") {
+                  self.process_step = 3;
+                } else {
+                  if (self.account_index < self.data.accounts.length-1) {
+                    console.log("Done updating account " + self.data.accounts[self.account_index]);
+                    console.log(self.data.account_data[self.account_index]);
+                    self.account_index++;
+                    self.loadAccount(self.data.accounts[self.account_index]);
+                  } else {
+                    self.process_step = 3;
+                  }
+                }
                 break;
               case 3:
                 console.log("And... we're done.");
@@ -168,8 +198,14 @@ class eosKnights {
             break;
           case 2:
             if (self.account_index == -1) {
-              console.log("This is where we'd loop through all accounts... let's just update ourselves for now.");
-              self.loadAccount(self.my_account);
+              if (self.this_account != "") {
+                console.log("Updating data for " + self.this_account);
+                self.loadAccount(self.this_account);
+              } else {
+                self.account_index = 0;
+                self.loadAccount(self.data.accounts[self.account_index]);
+                console.log("Loading data for " + self.data.accounts[self.account_index]);
+              }
             }
             let my_actions = await self.getTransactions(self.data.accounts[self.account_index]);
             break;
@@ -180,7 +216,14 @@ class eosKnights {
             let one_minute=1000*60;
             let run_time_ms = self.end_time.getTime() - self.start_time.getTime();
             console.log("Run time: " + parseFloat(run_time_ms/one_minute).toPrecision(3) + " minutes.");
-            console.log(self.data.account_data[self.account_index]);
+            if (self.this_account != "") {
+              console.log(self.data.account_data[self.account_index]);
+            } else {
+              console.log("Total Amount Spent: " + self.data.total_amount_spent);
+              console.log("Total Number of Purchases: " + self.data.total_number_of_purchases);
+              console.log("Total Amount Earned: " + self.data.total_amount_earned);
+              console.log("Total Number of Sales: " + self.data.total_number_of_sales);
+            }
             process.exit();
             break;
           default:
@@ -204,7 +247,10 @@ class eosKnights {
         console.log("Please update your local data.");
         process.exit();
       }
+      //console.log("We are inside loadAccount for account " + account);
+      //console.log("account_index is " + self.account_index);
       self.data.current_account_action_seq = parseInt(self.data.account_data[self.account_index].account_action_seq) + 1;
+      //console.log("The new sequence number is " + self.data.current_account_action_seq);
   }  
 
 }
