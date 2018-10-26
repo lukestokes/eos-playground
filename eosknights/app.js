@@ -43,8 +43,9 @@ class eosKnights {
     this.data.current_account_action_seq = this.data.game_account_action_seq;
     this.data.current_account_action_seq++;
 
-    // TODO: get rid of all eosio. accounts
-    var exclude_accounts = ['eosio.stake','eosio.ramfee','eosio.ram'];
+    // Remove all eosio. accounts
+    // Remove gu3tcnrqhege which includes dividend payments
+    var exclude_accounts = ['eosio.stake','eosio.ramfee','eosio.ram','gu3tcnrqhege'];
     var index_to_remove = -1;
     for (var i = exclude_accounts.length - 1; i >= 0; i--) {
       index_to_remove = self.data.accounts.indexOf(exclude_accounts[i]);

@@ -9,8 +9,10 @@ The last time I ran this, it took 26.9 minutes to update all the sales data from
 To run it, have node installed and just type:
 
 ```
-node app.js
+node app.js youraccountname
 ```
+
+Replace `youraccountname` with your EOS account name. If you just want to see your account quickly, use `node app.js youraccountname false` which will skip updating the chain data first. If you want to update all accounts, just run `node app.js`. Note, it may take several hours to update all accounts from scratch unless you start with the existing data.json file.
 
 If you don't have eosjs installed, you'll have to install that first via:
 
