@@ -57,3 +57,5 @@ Run time: 0.267 minutes.
 ```
 
 Please don't just the code too harshly as it's my first node app. I borrowed heavily from @kasperfish and a deamon he built [here](https://github.com/eosdac/eosdac-token-explorer/blob/master/deamon/action_deamon.js).
+
+If you find this useful, please set `1lukestokes1` as your referrer in the settings of your app and we'll both get some free Magic Water. :)
