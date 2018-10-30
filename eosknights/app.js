@@ -5,7 +5,7 @@ class eosKnights {
     this.game_account = 'eosknightsio';
     this.this_account = '';
     this.deamonize = 1;
-    this.offset = 500;
+    this.offset = 5000;
     this.fs = require('fs');
     this.eos = eos;
     this.process_step = 1; // do the game account first, then update players (2)
@@ -18,8 +18,8 @@ class eosKnights {
       "total_number_of_purchases": 0,
       "total_amount_earned": 0,
       "total_number_of_sales": 0,
-      "current_account_action_seq": 0,
-      "game_account_action_seq": 0,
+      "account_action_seq": 0,
+      "last_synced_block_number": 0,
       "accounts": [],
       "account_data": []
     }
@@ -38,10 +38,9 @@ class eosKnights {
     let jsondata = this.fs.readFileSync('data.json');  
     this.data = JSON.parse(jsondata);  
 
-    console.log("We have data on " + this.data.accounts.length + " accounts at sequence number " + this.data.game_account_action_seq);
+    console.log("We have data on " + this.data.accounts.length + " accounts at sequence number " + this.data.account_action_seq);
 
-    this.data.current_account_action_seq = this.data.game_account_action_seq;
-    this.data.current_account_action_seq++;
+    this.data.account_action_seq++;
 
     // Remove all eosio. accounts
     // Remove gu3tcnrqhege which includes dividend payments
@@ -60,7 +59,7 @@ class eosKnights {
       if (process.argv.length > 3) {
         // if they include a false here, skip updating things and jump to step 2
         if (process.argv[3] == "false") {
-          this.process_step = 3;
+          this.process_step = 2;
           this.loadAccount(this.this_account);
         }
       }
@@ -74,37 +73,21 @@ class eosKnights {
     return this.eos.getActions(
       {
         account_name: account,
-        pos: self.data.current_account_action_seq,
+        pos: self.data.account_action_seq,
         offset: self.offset}
       ).then( async function(a){
         if(a.actions.length == 0){
-          console.log('No new actions'+ ` (latest: ${self.data.current_account_action_seq-1})`);
+          console.log('No new actions'+ ` (latest: ${self.data.account_action_seq-1})`);
           //console.log(self.data);
-
           switch (self.process_step) {
               case 1:
                 self.process_step = 2;
-                self.data.game_account_action_seq = self.data.current_account_action_seq;
                 let update_json_after_step_1 = JSON.stringify(self.data, null, 2);
                 self.fs.writeFile("data.json", update_json_after_step_1, function(err) {}); 
                 break;
               case 2:
                 let update_json_after_step_2 = JSON.stringify(self.data, null, 2);
                 self.fs.writeFile("data.json", update_json_after_step_2, function(err) {}); 
-                if (self.this_account != "") {
-                  self.process_step = 3;
-                } else {
-                  if (self.account_index < self.data.accounts.length-1) {
-                    console.log("Done updating account " + self.data.accounts[self.account_index]);
-                    console.log(self.data.account_data[self.account_index]);
-                    self.account_index++;
-                    self.loadAccount(self.data.accounts[self.account_index]);
-                  } else {
-                    self.process_step = 3;
-                  }
-                }
-                break;
-              case 3:
                 console.log("And... we're done.");
                 process.exit();
                 break;
@@ -125,14 +108,23 @@ class eosKnights {
           self.last_block_number = data.block_num;
           self.last_block_time = data.block_time;
 
-          data.confirmed = false;
+          let include_this_action = true;
+          if (data.block_num > a.last_irreversible_block ){
+            include_this_action = false;
+          }
+          // avoid double counting data
+          if (self.data.last_synced_block_number > self.last_block_number) {
+            include_this_action = false;
+          }
 
-          if(data.block_num <= a.last_irreversible_block ){
-            data.confirmed = true;
+          if (!include_this_action) {
+            return;
           }
 
           switch (data.actiontype) {
               case 'transfer':
+                  self.data.last_synced_block_number = data.block_num;
+
                   data._from = x.action_trace.act.data.from;
                   data._to = x.action_trace.act.data.to;
                   let temp = x.action_trace.act.data.quantity.split(' ');
@@ -141,34 +133,40 @@ class eosKnights {
                   data._memo = encodeURIComponent(x.action_trace.act.data.memo);
                   data.txid = x.action_trace.trx_id;
 
-                  if (self.process_step == 2) {
-                    if (data._to == self.game_account) {
-                      self.data.account_data[self.account_index].amount_spent += parseFloat(data._quantity);
-                      self.data.account_data[self.account_index].number_of_purchases++;
-                      self.data.account_data[self.account_index].account_action_seq = data.account_action_seq;
-                      self.data.total_amount_spent += parseFloat(data._quantity);
-                      self.data.number_of_total_amount_spent += 1;
-                    }
-                  }
                   if (self.process_step == 1) {
-                    let index = self.data.accounts.indexOf(data._to);
+                    let account_involved = data._to
+                    if (data._to == self.game_account) {
+                        account_involved = data._from;
+                    }
+                    let index = self.data.accounts.indexOf(account_involved);
                     if (index == -1) {
                       index = self.data.accounts.length;
                       let new_account = {
-                        "account": data._to,
+                        "account": account_involved,
                         "amount_spent": 0,
                         "number_of_purchases": 0,
                         "amount_earned": 0,
                         "number_of_sales": 0,
-                        "account_action_seq": 0
+                        "last_synced_block_number": 0
                       }
-                      self.data.accounts[index] = data._to;
+                      self.data.accounts[index] = account_involved;
                       self.data.account_data[index] = new_account;
                     }
-                    self.data.account_data[index].amount_earned += parseFloat(data._quantity);
-                    self.data.account_data[index].number_of_sales++;
-                    self.data.total_amount_earned += parseFloat(data._quantity);
-                    self.data.total_number_of_sales += 1;
+
+                    if (self.data.account_data[index].last_synced_block_number < data.block_num) {
+                      self.data.account_data[index].last_synced_block_number = data.block_num;
+                      if (data._to == self.game_account) {
+                        self.data.account_data[index].amount_spent += parseFloat(data._quantity);
+                        self.data.account_data[index].number_of_purchases++;
+                        self.data.total_amount_spent += parseFloat(data._quantity);
+                        self.data.total_number_of_purchases += 1;
+                      } else {
+                        self.data.account_data[index].amount_earned += parseFloat(data._quantity);
+                        self.data.account_data[index].number_of_sales++;
+                        self.data.total_amount_earned += parseFloat(data._quantity);
+                        self.data.total_number_of_sales += 1;
+                      }
+                    }
                   }
 
                   break;
@@ -176,9 +174,9 @@ class eosKnights {
                   //console.log('Unknown Action!');
           };
         });
-        self.data.current_account_action_seq += a.actions.length;
+        self.data.account_action_seq += a.actions.length;
 
-        console.log("Updating: block number " + self.last_block_number + " at " + self.last_block_time + " account sequence " + self.data.current_account_action_seq);
+        console.log("Updating: block number " + self.last_block_number + " at " + self.last_block_time + " account sequence " + self.data.account_action_seq);
         //console.log(self.data);
 
         let jsondata_updated = JSON.stringify(self.data, null, 2);  
@@ -187,7 +185,10 @@ class eosKnights {
         return true;
       
     })
-    .catch(x => console.log(x) );
+    .catch(x => {
+      console.log(x);
+      process.exit();
+    });
   }
 
   async deamon(){
@@ -198,19 +199,6 @@ class eosKnights {
             let actions = await self.getTransactions(self.game_account);
             break;
           case 2:
-            if (self.account_index == -1) {
-              if (self.this_account != "") {
-                console.log("Updating data for " + self.this_account);
-                self.loadAccount(self.this_account);
-              } else {
-                self.account_index = 0;
-                self.loadAccount(self.data.accounts[self.account_index]);
-                console.log("Loading data for " + self.data.accounts[self.account_index]);
-              }
-            }
-            let my_actions = await self.getTransactions(self.data.accounts[self.account_index]);
-            break;
-          case 3:
             console.log("Ok... we should be done now. Let's look at the results!");
             self.end_time = new Date();
             console.log("Ending at "+ self.end_time.toLocaleTimeString() + " " + self.end_time.toLocaleDateString());
@@ -219,12 +207,11 @@ class eosKnights {
             console.log("Run time: " + parseFloat(run_time_ms/one_minute).toPrecision(3) + " minutes.");
             if (self.this_account != "") {
               console.log(self.data.account_data[self.account_index]);
-            } else {
-              console.log("Total Amount Spent: " + self.data.total_amount_spent);
-              console.log("Total Number of Purchases: " + self.data.total_number_of_purchases);
-              console.log("Total Amount Earned: " + self.data.total_amount_earned);
-              console.log("Total Number of Sales: " + self.data.total_number_of_sales);
             }
+            console.log("Total Amount Spent: " + self.data.total_amount_spent);
+            console.log("Total Number of Purchases: " + self.data.total_number_of_purchases);
+            console.log("Total Amount Earned: " + self.data.total_amount_earned);
+            console.log("Total Number of Sales: " + self.data.total_number_of_sales);
             process.exit();
             break;
           default:
@@ -248,10 +235,6 @@ class eosKnights {
         console.log("Please update your local data.");
         process.exit();
       }
-      //console.log("We are inside loadAccount for account " + account);
-      //console.log("account_index is " + self.account_index);
-      self.data.current_account_action_seq = parseInt(self.data.account_data[self.account_index].account_action_seq) + 1;
-      //console.log("The new sequence number is " + self.data.current_account_action_seq);
   }  
 
 }
@@ -262,7 +245,7 @@ const config = {
     debug: false,
     sign: true,
     // mainNet bp endpoint
-    httpEndpoint: 'https://api.eosnewyork.io',
+    httpEndpoint: 'https://eos.greymass.com',
     // mainNet chainId
     chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
 };
