@@ -38,7 +38,7 @@ class eosKnights {
     let jsondata = this.fs.readFileSync('data.json');  
     this.data = JSON.parse(jsondata);  
 
-    console.log("We have data on " + this.data.accounts.length + " accounts at sequence number " + this.data.account_action_seq);
+    console.log("We have data on " + this.data.accounts.length + " accounts at block number " + this.data.last_synced_block_number + " using sequence number " + this.data.account_action_seq);
 
     this.data.account_action_seq++;
 
@@ -154,6 +154,13 @@ class eosKnights {
                     }
 
                     if (self.data.account_data[index].last_synced_block_number < data.block_num) {
+
+                      // TEMPORARY LOGGING
+                      //if (account_involved == '1lukestokes1') {
+                      //  let temp_logging = JSON.stringify(data, null, 2);
+                      //  self.fs.appendFile("1lukestokes1.json", temp_logging, function(err) {}); 
+                      //}
+
                       self.data.account_data[index].last_synced_block_number = data.block_num;
                       if (data._to == self.game_account) {
                         self.data.account_data[index].amount_spent += parseFloat(data._quantity);
