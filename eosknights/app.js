@@ -5,7 +5,7 @@ class eosKnights {
     this.game_account = 'eosknightsio';
     this.this_account = '';
     this.deamonize = 1;
-    this.offset = 5000;
+    this.offset = 500;
     this.fs = require('fs');
     this.eos = eos;
     this.process_step = 1; // do the game account first, then update players (2)
@@ -56,11 +56,11 @@ class eosKnights {
 
     if (process.argv.length > 2) {
       this.this_account = process.argv[2];
+      this.loadAccount(this.this_account);
       if (process.argv.length > 3) {
         // if they include a false here, skip updating things and jump to step 2
         if (process.argv[3] == "false") {
           this.process_step = 2;
-          this.loadAccount(this.this_account);
         }
       }
     }
@@ -75,8 +75,8 @@ class eosKnights {
         account_name: account,
         pos: self.data.account_action_seq,
         offset: self.offset}
-      ).then( async function(a){
-        if(a.actions.length == 0){
+      ).then( async function(a) {
+        if (a.actions.length == 0 || a.actions.length < 5) {
           console.log('No new actions'+ ` (latest: ${self.data.account_action_seq-1})`);
           //console.log(self.data);
           switch (self.process_step) {
@@ -98,7 +98,7 @@ class eosKnights {
         }
 
         a.actions.forEach(async function(x, i, arr){
-
+          try {
           let data = {};
           data.account_action_seq = x.account_action_seq;
           data.actiontype = x.action_trace.act.name;
@@ -116,6 +116,10 @@ class eosKnights {
           if (self.data.last_synced_block_number > self.last_block_number) {
             include_this_action = false;
           }
+          // skip bad data
+          if (!x.action_trace.act.data.quantity) {
+            include_this_action = false;
+          }
 
           if (!include_this_action) {
             return;
@@ -127,10 +131,11 @@ class eosKnights {
 
                   data._from = x.action_trace.act.data.from;
                   data._to = x.action_trace.act.data.to;
+
                   let temp = x.action_trace.act.data.quantity.split(' ');
                   data._quantity = temp[0];
                   data._symbol = temp[1];
-                  data._memo = encodeURIComponent(x.action_trace.act.data.memo);
+                  data._memo = x.action_trace.act.data.memo;
                   data.txid = x.action_trace.trx_id;
 
                   if (self.process_step == 1) {
@@ -180,6 +185,12 @@ class eosKnights {
               default:
                   //console.log('Unknown Action!');
           };
+
+          } catch(e) {
+            console.log(e);
+            process.exit();
+          }
+
         });
         self.data.account_action_seq += a.actions.length;
 
@@ -187,8 +198,7 @@ class eosKnights {
         //console.log(self.data);
 
         let jsondata_updated = JSON.stringify(self.data, null, 2);  
-        self.fs.writeFile("data.json", jsondata_updated, function(err) {}); 
-
+        self.fs.writeFile("data.json", jsondata_updated, function(err) {});
         return true;
       
     })
