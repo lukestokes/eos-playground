@@ -43,8 +43,9 @@ class eosKnights {
     this.data.account_action_seq++;
 
     // Remove all eosio. accounts
-    // Remove gu3tcnrqhege which includes dividend payments
-    var exclude_accounts = ['eosio.stake','eosio.ramfee','eosio.ram','gu3tcnrqhege'];
+    // Remove dividend payments accounts
+    // confusing: whitehatguys and askforrefund
+    var exclude_accounts = ['eosio.stake','eosio.ramfee','eosio.ram','gu3tcnrqhege','godzilla1234','eosknightscd','whuywonmeme1','eosknightpil','haytmnzrgege','coffeeloveos','eosknightscd','askforrefund','whitehatguys'];
     var index_to_remove = -1;
     for (var i = exclude_accounts.length - 1; i >= 0; i--) {
       index_to_remove = self.data.accounts.indexOf(exclude_accounts[i]);
@@ -55,6 +56,9 @@ class eosKnights {
     }
 
     if (process.argv.length > 2) {
+      if (process.argv[2] == "run-report") {
+        this.runReport();
+      }
       this.this_account = process.argv[2];
       this.loadAccount(this.this_account);
       if (process.argv.length > 3) {
@@ -252,7 +256,37 @@ class eosKnights {
         console.log("Please update your local data.");
         process.exit();
       }
-  }  
+  }
+
+  runReport() {
+    var self = this;
+    var top_net_earnings = [];
+    var net_profit_loss = 0;
+    var net_profit_loss_report_text_line = '';
+    var net_profit_loss_report_text = '';
+
+    self.data.account_data.sort(function(a,b){
+      let a_net_profit = a.amount_earned - a.amount_spent;
+      let b_net_profit = b.amount_earned - b.amount_spent;
+
+      if (a_net_profit == b_net_profit) {
+        return 0;
+      } else {
+        return (a_net_profit > b_net_profit) ? -1 : 1;
+      }
+    });
+
+    for (var i = 0; i < self.data.account_data.length; i++) {
+      net_profit_loss = self.data.account_data[i].amount_earned - self.data.account_data[i].amount_spent;
+      net_profit_loss_report_text_line = (i+1) + ": " + self.data.account_data[i].account + " | " + net_profit_loss;
+      //console.log(net_profit_loss_report_text_line);
+      net_profit_loss_report_text = net_profit_loss_report_text + net_profit_loss_report_text_line + "\n";
+    }
+
+    self.fs.writeFileSync("net_profit_loss_report.txt", net_profit_loss_report_text, function(err) {}); 
+
+    process.exit();
+  }
 
 }
 
