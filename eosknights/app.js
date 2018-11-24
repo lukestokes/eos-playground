@@ -4,7 +4,7 @@ class eosKnights {
     var self = this;
     this.game_account = 'eosknightsio';
     this.this_account = '';
-    this.deamonize = 1;
+    this.deamonize = 2;
     this.offset = 500;
     this.fs = require('fs');
     this.eos = eos;
