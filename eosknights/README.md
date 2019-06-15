@@ -14,10 +14,10 @@ node app.js youraccountname
 
 Replace `youraccountname` with your EOS account name. If you just want to see your account quickly, use `node app.js youraccountname false` which will skip updating the chain data first. If you want to update all accounts, just run `node app.js`. Note, it may take several hours to update all accounts from scratch unless you start with the existing data.json file.
 
-If you don't have eosjs installed, you'll have to install that first via:
+If you don't have eosjs-api installed, you'll have to install that first via:
 
 ```
-npm install eosjs
+npm install eosjs-api
 ```
 
 It will update your data.json file with the latest data from the chain and then output the buys and sells for the account you specified.
